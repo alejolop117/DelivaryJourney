@@ -1,0 +1,227 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6771947350433086499
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6771947350433086508}
+  - component: {fileID: 6771947350433086509}
+  - component: {fileID: 4953562740114792365}
+  - component: {fileID: 624886415683242276}
+  - component: {fileID: 129219783670674797}
+  - component: {fileID: 6771947350433086498}
+  - component: {fileID: 6771947350433086511}
+  - component: {fileID: 6771947350433086505}
+  - component: {fileID: 6771947350433086510}
+  m_Layer: 0
+  m_Name: ManagerCajas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6771947350433086508
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6771947350433086499}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.72, y: 1.09, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6771947350433086509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6771947350433086499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08d09b5da3622534aada78508589ca37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventoLlenoC: {fileID: 11400000, guid: 7886b80c50a7c4d4b999e560f1b51e54, type: 2}
+  eventoLlenoR: {fileID: 11400000, guid: e373b539d8bc96146961622fd302d049, type: 2}
+  eventoLlenoV: {fileID: 11400000, guid: 6b831fabe83a8a94d88dbd188a9d61ae, type: 2}
+  spawnC: {fileID: 11400000, guid: 1acad79eead8fe243b601bc9c7ac5405, type: 2}
+  spawnA: {fileID: 11400000, guid: 36b717675b995a94f8842f1c23fbf399, type: 2}
+  spawnV: {fileID: 11400000, guid: 73288101003a1684ea460e7a8ec42bb5, type: 2}
+  CajaC: {fileID: 4953562740114792365}
+  CajaA: {fileID: 624886415683242276}
+  CajaV: {fileID: 129219783670674797}
+  spawn: {fileID: 0}
+--- !u!114 &4953562740114792365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6771947350433086499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80539e25eb8c3694c970f61a20a15858, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pooledObjects: []
+  objectToPool: {fileID: 4463393193232386754, guid: 5f83c91baf6d30f4aa0ed457b77df13f, type: 3}
+  amountToPool: 6
+--- !u!114 &624886415683242276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6771947350433086499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80539e25eb8c3694c970f61a20a15858, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pooledObjects: []
+  objectToPool: {fileID: 1050871060338417836, guid: df3d435eebcef4446b9a89dfe93d5799, type: 3}
+  amountToPool: 6
+--- !u!114 &129219783670674797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6771947350433086499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80539e25eb8c3694c970f61a20a15858, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pooledObjects: []
+  objectToPool: {fileID: 8800295921002117336, guid: 9fae1b289b0208f4ca45a4333b6c6f37, type: 3}
+  amountToPool: 6
+--- !u!114 &6771947350433086498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6771947350433086499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4fffeed425692a43b5e5fc91376d708, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  contador: 3
+  cC: 0
+  cV: 0
+  cA: 0
+  cont: {fileID: 0}
+  eventoGanarCaja: {fileID: 11400000, guid: ebfde86aee25e5b479ce01804dcf6f86, type: 2}
+  eventoPerderCaja: {fileID: 11400000, guid: 8b4dacae1fa2fd1468903fbf7dfb11db, type: 2}
+  eventoGameOver: {fileID: 11400000, guid: d0c05096ef1f3814bb51069f12b10a2e, type: 2}
+  reinicioCajas: {fileID: 11400000, guid: 57b58e652e5ade84bb8de4beb34ca11e, type: 2}
+  ganarC: {fileID: 11400000, guid: 7886b80c50a7c4d4b999e560f1b51e54, type: 2}
+  ganarV: {fileID: 11400000, guid: 6b831fabe83a8a94d88dbd188a9d61ae, type: 2}
+  ganarA: {fileID: 11400000, guid: e373b539d8bc96146961622fd302d049, type: 2}
+  perderC: {fileID: 11400000, guid: 4604fcf4e60bc3d4eb2ffc8650f76854, type: 2}
+  perderV: {fileID: 11400000, guid: 8be2768ff72df6a48b655cf7451f63ab, type: 2}
+  perderA: {fileID: 11400000, guid: c0517a82027f5934fa7a75d725d12aa9, type: 2}
+  recogerCV: {fileID: 11400000, guid: be82d2d446974af4dae3eeed9e09cfc4, type: 2}
+  recogerCA: {fileID: 11400000, guid: d292d332af3c70f48b005fa9c357f6b0, type: 2}
+  recogerCC: {fileID: 11400000, guid: f7f3ecf38318e9749b3f20f500b71522, type: 2}
+  reiniciarV: {fileID: 11400000, guid: ea7ed38104758ff49a0ec08c24f6ac88, type: 2}
+  reiniciarA: {fileID: 11400000, guid: c85b9b0a8ef9dad4b8d0275eae6792c1, type: 2}
+  reiniciarC: {fileID: 11400000, guid: 2b3d9503910d32e45ad961b1669cc002, type: 2}
+  spawnC: {fileID: 11400000, guid: 1acad79eead8fe243b601bc9c7ac5405, type: 2}
+  spawnV: {fileID: 11400000, guid: 73288101003a1684ea460e7a8ec42bb5, type: 2}
+  spawnA: {fileID: 11400000, guid: 36b717675b995a94f8842f1c23fbf399, type: 2}
+--- !u!114 &6771947350433086511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6771947350433086499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 639262cfe6e7c4c44916db8f02b02054, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  recogerCaja: {fileID: 11400000, guid: f7f3ecf38318e9749b3f20f500b71522, type: 2}
+  reinicioCaja: {fileID: 11400000, guid: 2b3d9503910d32e45ad961b1669cc002, type: 2}
+  perderColor: {fileID: 11400000, guid: 4604fcf4e60bc3d4eb2ffc8650f76854, type: 2}
+  ganarSkin: {fileID: 11400000, guid: 299d07b19ea2d0443aa6e512a41949d0, type: 2}
+  finTutorial: {fileID: 0}
+  gameOver: {fileID: 0}
+  nombreCaja: Cafe
+  conteoCaja: {fileID: 0}
+  pruebas: 0
+  maximoPorCaja: 5
+  conteoActual: 0
+  cajasLlenas: 0
+  objetivoSkin: 100
+  skinGanada: 0
+  tiempoSkin: 0
+  conteoGeneral: 0
+--- !u!114 &6771947350433086505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6771947350433086499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 639262cfe6e7c4c44916db8f02b02054, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  recogerCaja: {fileID: 11400000, guid: be82d2d446974af4dae3eeed9e09cfc4, type: 2}
+  reinicioCaja: {fileID: 11400000, guid: ea7ed38104758ff49a0ec08c24f6ac88, type: 2}
+  perderColor: {fileID: 11400000, guid: 8be2768ff72df6a48b655cf7451f63ab, type: 2}
+  ganarSkin: {fileID: 11400000, guid: 3f87687dc24f70e478ce4e3122e7eec3, type: 2}
+  finTutorial: {fileID: 0}
+  gameOver: {fileID: 0}
+  nombreCaja: Verde
+  conteoCaja: {fileID: 0}
+  pruebas: 0
+  maximoPorCaja: 5
+  conteoActual: 0
+  cajasLlenas: 0
+  objetivoSkin: 200
+  skinGanada: 0
+  tiempoSkin: 0
+  conteoGeneral: 0
+--- !u!114 &6771947350433086510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6771947350433086499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 639262cfe6e7c4c44916db8f02b02054, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  recogerCaja: {fileID: 11400000, guid: d292d332af3c70f48b005fa9c357f6b0, type: 2}
+  reinicioCaja: {fileID: 11400000, guid: c85b9b0a8ef9dad4b8d0275eae6792c1, type: 2}
+  perderColor: {fileID: 11400000, guid: c0517a82027f5934fa7a75d725d12aa9, type: 2}
+  ganarSkin: {fileID: 11400000, guid: 36b1ec92b18f01c4ab3314b293258849, type: 2}
+  finTutorial: {fileID: 0}
+  gameOver: {fileID: 0}
+  nombreCaja: Azul
+  conteoCaja: {fileID: 0}
+  pruebas: 0
+  maximoPorCaja: 5
+  conteoActual: 0
+  cajasLlenas: 0
+  objetivoSkin: 300
+  skinGanada: 0
+  tiempoSkin: 0
+  conteoGeneral: 0
