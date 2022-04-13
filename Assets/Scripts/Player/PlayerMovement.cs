@@ -8,11 +8,11 @@ public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] int changePerSecond = 1, interval = 3;
     [SerializeField] float angularMagnitude = 90;
-    [SerializeField] Eventos deslizar;
+    [SerializeField] Eventos deslizar, acelerate;
     [SerializeField] float deslice,duracionDeslizar;
     [SerializeField] TextMeshProUGUI speedViewer;
     [SerializeField] AudioManager audioManager; 
-    int speedView;
+    int speedView, counter = 0;
     public float speed = 150;
     Rigidbody rb;
     Vector3 direction = new Vector3(0,0,1);
@@ -126,8 +126,21 @@ public class PlayerMovement : MonoBehaviour
     }
 
     void ChangeSpeed() {
-        if(roadCounter % interval == 0) {
+        Debug.Log(counter);
+        if (roadCounter % interval == 0) {
             speed += changePerSecond * Time.deltaTime;
+            if (counter < 1) {
+                AcelerateSound();
+                Debug.Log("INCREASE NOW");
+                counter++;
+            }
+
         }
+        else counter = 0;
+       
+    }
+
+    void AcelerateSound() {
+        acelerate.FireEvent();
     }
 }

@@ -22502,16 +22502,20 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2925254310270055750, guid: 93da76497223d984fb9508c03dad3aa1, type: 3}
       propertyPath: clips.Array.size
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2925254310270055750, guid: 93da76497223d984fb9508c03dad3aa1, type: 3}
       propertyPath: events.Array.size
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2925254310270055750, guid: 93da76497223d984fb9508c03dad3aa1, type: 3}
       propertyPath: clips.Array.data[2]
       value: 
       objectReference: {fileID: 8300000, guid: 7478151cf36724a7dada558f746c3633, type: 3}
+    - target: {fileID: 2925254310270055750, guid: 93da76497223d984fb9508c03dad3aa1, type: 3}
+      propertyPath: clips.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 90a6912219177a542a891ce0e9571512, type: 3}
     - target: {fileID: 2925254310270055750, guid: 93da76497223d984fb9508c03dad3aa1, type: 3}
       propertyPath: events.Array.data[2]
       value: 
@@ -22524,6 +22528,10 @@ PrefabInstance:
       propertyPath: events.Array.data[4]
       value: 
       objectReference: {fileID: 11400000, guid: 3f87687dc24f70e478ce4e3122e7eec3, type: 2}
+    - target: {fileID: 2925254310270055750, guid: 93da76497223d984fb9508c03dad3aa1, type: 3}
+      propertyPath: events.Array.data[5]
+      value: 
+      objectReference: {fileID: 11400000, guid: cf7f72b275999874da8d1c524a463509, type: 2}
     - target: {fileID: 2925254310285745764, guid: 93da76497223d984fb9508c03dad3aa1, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -22813,6 +22821,10 @@ PrefabInstance:
       propertyPath: interval
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 4565522730625558111, guid: b0fd7ae53567f7642b794c0881e34809, type: 3}
+      propertyPath: acelerate
+      value: 
+      objectReference: {fileID: 11400000, guid: cf7f72b275999874da8d1c524a463509, type: 2}
     - target: {fileID: 4565522730625558111, guid: b0fd7ae53567f7642b794c0881e34809, type: 3}
       propertyPath: speedViewer
       value: 

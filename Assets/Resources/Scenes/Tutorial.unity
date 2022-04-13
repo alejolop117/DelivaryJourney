@@ -11388,10 +11388,12 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 3f87687dc24f70e478ce4e3122e7eec3, type: 2}
   - {fileID: 11400000, guid: 299d07b19ea2d0443aa6e512a41949d0, type: 2}
   - {fileID: 11400000, guid: 36b1ec92b18f01c4ab3314b293258849, type: 2}
+  - {fileID: 11400000, guid: cf7f72b275999874da8d1c524a463509, type: 2}
   clips:
   - {fileID: 8300000, guid: edde247dadfc51949a5cc1391f27f462, type: 3}
   - {fileID: 8300000, guid: 0983b0fc644902e42bc7f616a5d543b1, type: 3}
   - {fileID: 8300000, guid: 7478151cf36724a7dada558f746c3633, type: 3}
+  - {fileID: 8300000, guid: 90a6912219177a542a891ce0e9571512, type: 3}
 --- !u!82 &3331266144792013011
 AudioSource:
   m_ObjectHideFlags: 0
@@ -12344,6 +12346,10 @@ PrefabInstance:
       propertyPath: deslice
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 4565522730625558111, guid: b0fd7ae53567f7642b794c0881e34809, type: 3}
+      propertyPath: acelerate
+      value: 
+      objectReference: {fileID: 11400000, guid: cf7f72b275999874da8d1c524a463509, type: 2}
     - target: {fileID: 4565522730625558111, guid: b0fd7ae53567f7642b794c0881e34809, type: 3}
       propertyPath: speedViewer
       value: 

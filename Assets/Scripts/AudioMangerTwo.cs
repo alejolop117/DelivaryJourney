@@ -16,6 +16,7 @@ public class AudioMangerTwo : MonoBehaviour
         events[2].GEvent += ClipThree;
         events[3].GEvent += ClipThree;
         events[4].GEvent += ClipThree;
+        events[5].GEvent += ClipFour;
 
     }
 
@@ -34,12 +35,18 @@ public class AudioMangerTwo : MonoBehaviour
         audios.Play();
     }
 
+    void ClipFour() {
+        audios.clip = clips[3];
+        audios.Play();
+    }
+
     private void OnDestroy() {
         events[0].GEvent -= ClipOne;
         events[1].GEvent -= ClipTwo;
         events[2].GEvent -= ClipThree;
         events[3].GEvent -= ClipThree;
         events[4].GEvent -= ClipThree;
+        events[5].GEvent -= ClipFour;
     }
 
     private void OnDisable() {
@@ -48,5 +55,6 @@ public class AudioMangerTwo : MonoBehaviour
         events[2].GEvent -= ClipThree;
         events[3].GEvent -= ClipThree;
         events[4].GEvent -= ClipThree;
+        events[5].GEvent -= ClipFour;
     }
 }
