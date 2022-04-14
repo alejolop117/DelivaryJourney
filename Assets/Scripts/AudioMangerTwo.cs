@@ -17,7 +17,6 @@ public class AudioMangerTwo : MonoBehaviour
         events[3].GEvent += ClipThree;
         events[4].GEvent += ClipThree;
         events[5].GEvent += ClipFour;
-
     }
 
     void ClipOne() {

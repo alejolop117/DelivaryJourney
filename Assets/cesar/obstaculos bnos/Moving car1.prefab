@@ -262,7 +262,7 @@ GameObject:
   - component: {fileID: 3408886764804541540}
   - component: {fileID: 8870022371663406487}
   m_Layer: 0
-  m_Name: Car_4 1
+  m_Name: Moving car1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -371,6 +371,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   posicionNueva: {x: -14.3, y: 2, z: -66.8}
   posicionInicial: {x: 13.6, y: 2, z: -66.8}
+  posicionRelativa: {x: 0, y: 0, z: 0}
   reiniciarPos: {fileID: 11400000, guid: 3c1fbcf84da97c144a816f35e368bb96, type: 2}
   amplitud: 10
   oscilationSpeed: 2

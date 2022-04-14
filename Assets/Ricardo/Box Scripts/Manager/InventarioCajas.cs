@@ -82,8 +82,6 @@ public class InventarioCajas : MonoBehaviour
     {
         if (cajasLlenas <= 0)
         {
-
-
             conteoActual = 0;
             conteoCaja.text = (conteoGeneral + conteoActual + (cajasLlenas * maximoPorCaja)).ToString() + " / "+objetivoSkin;
         }

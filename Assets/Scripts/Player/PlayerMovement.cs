@@ -126,20 +126,15 @@ public class PlayerMovement : MonoBehaviour
     }
 
     void ChangeSpeed() {
-        Debug.Log(counter);
         if (roadCounter % interval == 0) {
             speed += changePerSecond * Time.deltaTime;
             if (counter < 1) {
                 AcelerateSound();
-                Debug.Log("INCREASE NOW");
                 counter++;
             }
-
         }
         else counter = 0;
-       
     }
-
     void AcelerateSound() {
         acelerate.FireEvent();
     }
