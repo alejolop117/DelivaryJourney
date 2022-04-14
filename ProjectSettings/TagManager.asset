@@ -17,6 +17,7 @@ TagManager:
   - Cone
   - BoxLimit
   - Suelo
+  - movingcar
   layers:
   - Default
   - TransparentFX
