@@ -5,41 +5,61 @@ using UnityEngine;
 public class OscilarCarro : MonoBehaviour
 {
     // Start is called before the first frame update
-    [SerializeField] Vector3 posicionNueva,posicionInicial,posicionRelativa; //esto es solo para llevar seguimiento de la posicion del objeto
-    [SerializeField] Eventos reiniciarPos;
-    [SerializeField] float amplitud,oscilationSpeed; //la amplitud determina que tan amplio Oscila el carro y la velocidad que tan rapido hace las Oscilaciones
+    [SerializeField] Vector3 posicionNueva, posicionInicial, posicionRelativa; //esto es solo para llevar seguimiento de la posicion del objeto
+    [SerializeField] Eventos reiniciarPos, reiniciarContador;
+    [SerializeField] float amplitud, oscilationSpeed; //la amplitud determina que tan amplio Oscila el carro y la velocidad que tan rapido hace las Oscilaciones
     [SerializeField] PlayerMovement speedPlayer; //muy importante asignar el componente del playerMovement o no se movera
     Rigidbody rb;
-
-    void Awake()
+    [SerializeField] bool cont;
+    void Start()
     {
         reiniciarPos.GEvent += ReiniciarPos;
+        reiniciarContador.GEvent += ReinicarContador;
         posicionInicial = transform.position;
-        posicionNueva = transform.position;
+        posicionNueva = transform.localPosition;
         posicionRelativa = posicionNueva;
         rb = GetComponent<Rigidbody>();
-        
+
     }
 
     void FixedUpdate()
     {
-        posicionNueva.z += -speedPlayer.speed*0.5f * Time.deltaTime;
-        
-        posicionNueva.x = Mathf.Sin(posicionNueva.z*oscilationSpeed) * amplitud ;
+        posicionNueva.z += -speedPlayer.speed * 0.01f * Time.deltaTime;
+        posicionRelativa.z = (posicionNueva.z * 100f);
+        posicionNueva.x = Mathf.Sin(posicionRelativa.z * oscilationSpeed) * amplitud;
+
+        transform.localPosition = posicionNueva;
         rb.MovePosition(posicionNueva);
     }
     void ReiniciarPos()
     {
-        posicionNueva = posicionInicial;
-        posicionRelativa = posicionNueva;
+
+        cont = !cont;
+        if (cont == true)
+        {
+            posicionNueva = posicionInicial;
+            posicionRelativa = posicionNueva;
+            transform.position = posicionNueva;
+        }
+
+    }
+    void ReinicarContador()
+    {
+
+        if (cont == false)
+        {
+            cont = true;
+        }
     }
     private void OnDestroy()
     {
         reiniciarPos.GEvent -= ReiniciarPos;
+        reiniciarContador.GEvent -= ReinicarContador;
     }
     private void OnDisable()
     {
         reiniciarPos.GEvent -= ReiniciarPos;
+        reiniciarContador.GEvent -= ReinicarContador;
     }
-    
+
 }

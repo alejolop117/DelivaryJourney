@@ -10,7 +10,7 @@ public class PerderCaja : MonoBehaviour
     private bool eventoDisparado = false;
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag == "Suelo" && eventoDisparado == false)
+        if (collision.gameObject.tag != "Player" && eventoDisparado == false && collision.gameObject.tag != "Cajas F" && collision.gameObject.tag != "Cone" && collision.gameObject.tag != "Barrier")
         {
             eventoPerderColor.FireEvent();
             StartCoroutine("Efecto");

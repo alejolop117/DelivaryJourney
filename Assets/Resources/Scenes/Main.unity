@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.6645444, g: 0.88344455, b: 0.88508445, a: 1}
+  m_IndirectSpecularColor: {r: 0.6655411, g: 0.882509, b: 0.8856727, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -846,10 +846,12 @@ MonoBehaviour:
   posicionNueva: {x: 0, y: 0, z: 0}
   posicionInicial: {x: 0, y: 0, z: 0}
   posicionRelativa: {x: 0, y: 0, z: 0}
-  reiniciarPos: {fileID: 11400000, guid: 3c1fbcf84da97c144a816f35e368bb96, type: 2}
+  reiniciarPos: {fileID: 11400000, guid: 30a4ee7d88492e245ae266622413c679, type: 2}
+  reiniciarContador: {fileID: 11400000, guid: 3c1fbcf84da97c144a816f35e368bb96, type: 2}
   amplitud: 10
   oscilationSpeed: 0.02
   speedPlayer: {fileID: 1583043768}
+  cont: 0
 --- !u!1001 &56605706
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11268,10 +11270,12 @@ MonoBehaviour:
   posicionNueva: {x: -14.1, y: 1.4, z: -57.8}
   posicionInicial: {x: 14, y: 1.4, z: -57.8}
   posicionRelativa: {x: 0, y: 0, z: 0}
-  reiniciarPos: {fileID: 11400000, guid: 3c1fbcf84da97c144a816f35e368bb96, type: 2}
+  reiniciarPos: {fileID: 11400000, guid: 30a4ee7d88492e245ae266622413c679, type: 2}
+  reiniciarContador: {fileID: 11400000, guid: 3c1fbcf84da97c144a816f35e368bb96, type: 2}
   amplitud: 10
   oscilationSpeed: 0.02
   speedPlayer: {fileID: 1583043768}
+  cont: 0
 --- !u!1001 &1123539426
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11484,9 +11488,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1583043768}
     - target: {fileID: 8870022371663406487, guid: db75ac952d0b1644caf00409128522ec, type: 3}
+      propertyPath: reiniciarPos
+      value: 
+      objectReference: {fileID: 11400000, guid: 30a4ee7d88492e245ae266622413c679, type: 2}
+    - target: {fileID: 8870022371663406487, guid: db75ac952d0b1644caf00409128522ec, type: 3}
       propertyPath: oscilationSpeed
       value: 0.02
       objectReference: {fileID: 0}
+    - target: {fileID: 8870022371663406487, guid: db75ac952d0b1644caf00409128522ec, type: 3}
+      propertyPath: reiniciarContador
+      value: 
+      objectReference: {fileID: 11400000, guid: 3c1fbcf84da97c144a816f35e368bb96, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db75ac952d0b1644caf00409128522ec, type: 3}
 --- !u!1001 &1153469328
@@ -15357,10 +15369,12 @@ MonoBehaviour:
   posicionNueva: {x: -12.7, y: 1.5, z: -14.2}
   posicionInicial: {x: 11.4, y: 1.5, z: -14.2}
   posicionRelativa: {x: 0, y: 0, z: 0}
-  reiniciarPos: {fileID: 11400000, guid: 3c1fbcf84da97c144a816f35e368bb96, type: 2}
+  reiniciarPos: {fileID: 11400000, guid: 30a4ee7d88492e245ae266622413c679, type: 2}
+  reiniciarContador: {fileID: 11400000, guid: 3c1fbcf84da97c144a816f35e368bb96, type: 2}
   amplitud: 10
   oscilationSpeed: 0.02
   speedPlayer: {fileID: 1583043768}
+  cont: 0
 --- !u!1001 &1474869832
 PrefabInstance:
   m_ObjectHideFlags: 0
