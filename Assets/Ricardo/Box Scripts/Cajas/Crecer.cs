@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Crecer : MonoBehaviour , IReiniciable //hereda de una interfaz 
 {
-    [SerializeField] private Eventos eventoRecoger, eventoLleno, eventoGanarCaja,eventoReiniciar, entregaCaja, perderCaja;
+    [SerializeField] private Eventos eventoRecoger, eventoLleno, eventoGanarCaja,eventoReiniciar, entregaCaja, perderCaja,ganarVel;
     [SerializeField] private float tamañoMaximo; //es el tamaño maximo de la caja
     [SerializeField] private float ritmoDeCrecimiento; //lo que crece por cada caja recolectada
     [SerializeField] private bool save; //determina si ha pasado por un punto de reinicio o no
@@ -59,7 +59,11 @@ public class Crecer : MonoBehaviour , IReiniciable //hereda de una interfaz
     {
         if (save == false)
         {
+            tamañoActual = 0;
+            tamaño.localScale = tamañoInicial;
             this.gameObject.SetActive(false);
+            ganarVel.FireEvent();
+
         }
         else
         {

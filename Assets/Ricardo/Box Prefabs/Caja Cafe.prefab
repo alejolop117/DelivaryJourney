@@ -135,6 +135,7 @@ MonoBehaviour:
   eventoReiniciar: {fileID: 11400000, guid: 2b3d9503910d32e45ad961b1669cc002, type: 2}
   entregaCaja: {fileID: 11400000, guid: 88b76626ff6a1364ba02425587f4cd90, type: 2}
   perderCaja: {fileID: 11400000, guid: 4604fcf4e60bc3d4eb2ffc8650f76854, type: 2}
+  ganarVel: {fileID: 11400000, guid: ebbb0702c86eb1d4d84103b7a52cee82, type: 2}
   "tama\xF1oMaximo": 0.125
   ritmoDeCrecimiento: 0.025
   save: 0
