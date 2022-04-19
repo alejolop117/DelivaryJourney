@@ -24441,6 +24441,10 @@ PrefabInstance:
       value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 4565522730625558111, guid: b0fd7ae53567f7642b794c0881e34809, type: 3}
+      propertyPath: ganarVel
+      value: 
+      objectReference: {fileID: 11400000, guid: ebbb0702c86eb1d4d84103b7a52cee82, type: 2}
+    - target: {fileID: 4565522730625558111, guid: b0fd7ae53567f7642b794c0881e34809, type: 3}
       propertyPath: interval
       value: 4
       objectReference: {fileID: 0}
@@ -24448,6 +24452,18 @@ PrefabInstance:
       propertyPath: acelerate
       value: 
       objectReference: {fileID: 11400000, guid: cf7f72b275999874da8d1c524a463509, type: 2}
+    - target: {fileID: 4565522730625558111, guid: b0fd7ae53567f7642b794c0881e34809, type: 3}
+      propertyPath: ganarCaja
+      value: 
+      objectReference: {fileID: 11400000, guid: ebfde86aee25e5b479ce01804dcf6f86, type: 2}
+    - target: {fileID: 4565522730625558111, guid: b0fd7ae53567f7642b794c0881e34809, type: 3}
+      propertyPath: perderCaja
+      value: 
+      objectReference: {fileID: 11400000, guid: 8b4dacae1fa2fd1468903fbf7dfb11db, type: 2}
+    - target: {fileID: 4565522730625558111, guid: b0fd7ae53567f7642b794c0881e34809, type: 3}
+      propertyPath: pesoPorCaja
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4565522730625558111, guid: b0fd7ae53567f7642b794c0881e34809, type: 3}
       propertyPath: speedViewer
       value: 
@@ -24460,6 +24476,10 @@ PrefabInstance:
       propertyPath: resetCounter
       value: 100
       objectReference: {fileID: 0}
+    - target: {fileID: 4565522730625558111, guid: b0fd7ae53567f7642b794c0881e34809, type: 3}
+      propertyPath: reiniciarCaja
+      value: 
+      objectReference: {fileID: 11400000, guid: e8644db28a636114496b1ae384a524f5, type: 2}
     - target: {fileID: 4565522730625558111, guid: b0fd7ae53567f7642b794c0881e34809, type: 3}
       propertyPath: changePerSecond
       value: 2
@@ -25440,8 +25460,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5077874657423913133}
-  m_LocalRotation: {x: 0.17364816, y: -0, z: -0, w: 0.9848078}
-  m_LocalPosition: {x: 0, y: 5, z: -7}
+  m_LocalRotation: {x: 0.14254251, y: -0, z: -0, w: 0.9897887}
+  m_LocalPosition: {x: 0, y: 5, z: -11.190002}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5077874657776817741}
@@ -25612,7 +25632,7 @@ Camera:
     height: 1
   near clip plane: 0.1
   far clip plane: 5000
-  field of view: 60
+  field of view: 40
   orthographic: 0
   orthographic size: 10
   m_Depth: -1

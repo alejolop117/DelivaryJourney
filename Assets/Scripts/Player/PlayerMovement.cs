@@ -8,7 +8,9 @@ public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] int changePerSecond = 1, interval = 3;
     [SerializeField] float angularMagnitude = 90;
-    [SerializeField] Eventos deslizar, acelerate;
+    [Range(0,49)]
+    [SerializeField] float pesoPorCaja;
+    [SerializeField] Eventos deslizar, acelerate,ganarCaja,perderCaja,ganarVel;
     [SerializeField] float deslice,duracionDeslizar;
     [SerializeField] TextMeshProUGUI speedViewer;
     [SerializeField] AudioManager audioManager; 
@@ -24,6 +26,12 @@ public class PlayerMovement : MonoBehaviour
     private void Awake() {
         rb = GetComponent<Rigidbody>();
         anim = GetComponentInChildren<Animator>();
+        speed = speed - (pesoPorCaja * 3);
+        deslice = deslice - (deslice * 0.3f);
+        angularMagnitude = angularMagnitude - (angularMagnitude * 0.45f);
+        ganarCaja.GEvent += PerderVel;
+        perderCaja.GEvent += GanarVel;
+        ganarVel.GEvent += GanarVel;
     }
     void Start()
     {
@@ -46,6 +54,18 @@ public class PlayerMovement : MonoBehaviour
         Animations();
         ChangeSpeed();
         PrintText();
+    }
+    void GanarVel()
+    {
+        speed += pesoPorCaja;
+        deslice += deslice * 0.1f;
+        angularMagnitude += angularMagnitude * 0.15f;
+    }
+    void PerderVel()
+    {
+        speed -= pesoPorCaja;
+        deslice -= deslice * 0.1f;
+        angularMagnitude -= angularMagnitude * 0.15f;
     }
 
     void PrintText() {
@@ -96,10 +116,15 @@ public class PlayerMovement : MonoBehaviour
     private void OnDestroy()
     {
         deslizar.GEvent -= ResbalarLlantas;
+        ganarCaja.GEvent -= PerderVel;
+        perderCaja.GEvent -= GanarVel;
+        ganarVel.GEvent -= GanarVel;
     }
     private void OnDisable()
     {
         deslizar.GEvent -= ResbalarLlantas;
+        ganarCaja.GEvent -= PerderVel;
+        perderCaja.GEvent -= GanarVel;
     }
 
     private void OnTriggerEnter(Collider other) {
