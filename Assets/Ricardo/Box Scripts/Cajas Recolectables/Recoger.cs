@@ -37,12 +37,5 @@ public class Recoger : MonoBehaviour
     {
         reaparecer.GEvent -= Reaparicion;
     }
-    private void OnDisable()
-    {
-        reaparecer.GEvent -= Reaparicion;
-    }
-    private void OnEnable()
-    {
-        reaparecer.GEvent += Reaparicion;
-    }
+    
 }

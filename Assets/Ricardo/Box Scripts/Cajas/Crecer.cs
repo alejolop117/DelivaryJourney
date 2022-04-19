@@ -88,10 +88,5 @@ public class Crecer : MonoBehaviour , IReiniciable //hereda de una interfaz
         eventoReiniciar.GEvent -= Desaparecer;
         //perderCaja.GEvent -= PerderCaja;
     }
-    private void OnDisable()
-    {
-        eventoRecoger.GEvent -= CrecerCaja;  //se dessubscriben dichas funciones a dichos eventos
-        eventoReiniciar.GEvent -= Desaparecer;
-        //perderCaja.GEvent -= PerderCaja;
-    }
+    
 }
