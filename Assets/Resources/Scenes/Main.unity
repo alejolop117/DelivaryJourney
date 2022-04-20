@@ -260,6 +260,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2480694223488549721, guid: 561b15812ff901a49800ea067d28c85b, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4354563247303198719, guid: 561b15812ff901a49800ea067d28c85b, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -585,6 +589,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5651249558939628, guid: 74cadd9c163d90a4fb4ede428b28a24f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7756295998263530440, guid: 74cadd9c163d90a4fb4ede428b28a24f, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1318,6 +1326,10 @@ PrefabInstance:
       propertyPath: speedPlayer
       value: 
       objectReference: {fileID: 1583043768}
+    - target: {fileID: 4256412273415123298, guid: 37f9b0082e01c5b4d8abf61dbc635d92, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6171329700277193730, guid: 37f9b0082e01c5b4d8abf61dbc635d92, type: 3}
       propertyPath: m_Name
       value: gasolinera izquierda1 (1)
@@ -3417,6 +3429,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4271753701113750958, guid: f88e3e24077c0e74f8c2c6ce66919598, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6196239061104597198, guid: f88e3e24077c0e74f8c2c6ce66919598, type: 3}
       propertyPath: m_Name
       value: pueblo izquierda1 (2)
@@ -3705,6 +3721,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3720533970345678101, guid: f88e3e24077c0e74f8c2c6ce66919598, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4271753701113750958, guid: f88e3e24077c0e74f8c2c6ce66919598, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6196239061104597198, guid: f88e3e24077c0e74f8c2c6ce66919598, type: 3}
@@ -4484,6 +4504,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2480694223488549721, guid: 561b15812ff901a49800ea067d28c85b, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4354563247303198719, guid: 561b15812ff901a49800ea067d28c85b, type: 3}
       propertyPath: m_RootOrder
       value: 28
@@ -4872,6 +4896,10 @@ PrefabInstance:
       propertyPath: speedPlayer
       value: 
       objectReference: {fileID: 1583043768}
+    - target: {fileID: 946551852851773248, guid: a75504b05ca195148a980ab061a2986b, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8194013191006318369, guid: a75504b05ca195148a980ab061a2986b, type: 3}
       propertyPath: m_RootOrder
       value: 45
@@ -5243,6 +5271,10 @@ PrefabInstance:
       propertyPath: speedPlayer
       value: 
       objectReference: {fileID: 1583043768}
+    - target: {fileID: 2261145877271348370, guid: aa880d5f9559d2c4bb243cb6d654d005, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3387046577097187560, guid: aa880d5f9559d2c4bb243cb6d654d005, type: 3}
       propertyPath: m_Name
       value: gasolinera derecha1 (2)
@@ -6476,6 +6508,10 @@ PrefabInstance:
       propertyPath: speedPlayer
       value: 
       objectReference: {fileID: 1583043768}
+    - target: {fileID: 4256412273415123298, guid: 37f9b0082e01c5b4d8abf61dbc635d92, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6171329700277193730, guid: 37f9b0082e01c5b4d8abf61dbc635d92, type: 3}
       propertyPath: m_Name
       value: gasolinera izquierda1
@@ -6629,6 +6665,10 @@ PrefabInstance:
       propertyPath: speedPlayer
       value: 
       objectReference: {fileID: 1583043768}
+    - target: {fileID: 4268512455186502882, guid: a61438d58aca85241a4bbf9aa549b50a, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4860212274821868137, guid: a61438d58aca85241a4bbf9aa549b50a, type: 3}
       propertyPath: m_Name
       value: bosque derecha (2)
@@ -6728,6 +6768,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3720533970345678101, guid: f88e3e24077c0e74f8c2c6ce66919598, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4271753701113750958, guid: f88e3e24077c0e74f8c2c6ce66919598, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6196239061104597198, guid: f88e3e24077c0e74f8c2c6ce66919598, type: 3}
@@ -7213,6 +7257,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 416451604076286156, guid: 1520ace10e38f1e4a83ec471147b2b7a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 949736376255504503, guid: 1520ace10e38f1e4a83ec471147b2b7a, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7177334764207840535, guid: 1520ace10e38f1e4a83ec471147b2b7a, type: 3}
@@ -9120,6 +9168,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 949736376255504503, guid: 1520ace10e38f1e4a83ec471147b2b7a, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7177334764207840535, guid: 1520ace10e38f1e4a83ec471147b2b7a, type: 3}
       propertyPath: m_Name
       value: pueblo derecha 1
@@ -9161,6 +9213,10 @@ PrefabInstance:
       propertyPath: speedPlayer
       value: 
       objectReference: {fileID: 1583043768}
+    - target: {fileID: 4268512455186502882, guid: a61438d58aca85241a4bbf9aa549b50a, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4860212274821868137, guid: a61438d58aca85241a4bbf9aa549b50a, type: 3}
       propertyPath: m_Name
       value: bosque derecha
@@ -9574,6 +9630,10 @@ PrefabInstance:
       propertyPath: speedPlayer
       value: 
       objectReference: {fileID: 1583043768}
+    - target: {fileID: 1634682372879341186, guid: 526ded81388cf1e4897f906d1f67762e, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2181468735363278393, guid: 526ded81388cf1e4897f906d1f67762e, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -9945,6 +10005,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 103617690114355063, guid: 561b15812ff901a49800ea067d28c85b, type: 3}
       propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2480694223488549721, guid: 561b15812ff901a49800ea067d28c85b, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4354563247303198719, guid: 561b15812ff901a49800ea067d28c85b, type: 3}
@@ -10621,6 +10685,10 @@ PrefabInstance:
       propertyPath: speedPlayer
       value: 
       objectReference: {fileID: 1583043768}
+    - target: {fileID: 946551852851773248, guid: a75504b05ca195148a980ab061a2986b, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8194013191006318369, guid: a75504b05ca195148a980ab061a2986b, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -10944,6 +11012,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8125728665189369050, guid: 07d2ba297d9e56646869ca5a5a06789a, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8659805942628512865, guid: 07d2ba297d9e56646869ca5a5a06789a, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -11161,6 +11233,10 @@ PrefabInstance:
       propertyPath: speedPlayer
       value: 
       objectReference: {fileID: 1583043768}
+    - target: {fileID: 946551852851773248, guid: a75504b05ca195148a980ab061a2986b, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8194013191006318369, guid: a75504b05ca195148a980ab061a2986b, type: 3}
       propertyPath: m_RootOrder
       value: 46
@@ -11307,6 +11383,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2193610258130155962, guid: 07d2ba297d9e56646869ca5a5a06789a, type: 3}
       propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8125728665189369050, guid: 07d2ba297d9e56646869ca5a5a06789a, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8659805942628512865, guid: 07d2ba297d9e56646869ca5a5a06789a, type: 3}
@@ -11639,6 +11719,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2496512863975506279, guid: 088d0bd36255cef41b168c6eb50ac7f1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2496512864998213719, guid: 088d0bd36255cef41b168c6eb50ac7f1, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -12946,6 +13030,10 @@ PrefabInstance:
       propertyPath: speedPlayer
       value: 
       objectReference: {fileID: 1583043768}
+    - target: {fileID: 2261145877271348370, guid: aa880d5f9559d2c4bb243cb6d654d005, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3387046577097187560, guid: aa880d5f9559d2c4bb243cb6d654d005, type: 3}
       propertyPath: m_Name
       value: gasolinera derecha1
@@ -13175,6 +13263,10 @@ PrefabInstance:
       propertyPath: speedPlayer
       value: 
       objectReference: {fileID: 1583043768}
+    - target: {fileID: 4268512455186502882, guid: a61438d58aca85241a4bbf9aa549b50a, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4860212274821868137, guid: a61438d58aca85241a4bbf9aa549b50a, type: 3}
       propertyPath: m_Name
       value: bosque derecha (3)
@@ -13972,13 +14064,17 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 1609942879167489450, guid: f7f260327f50142458efa02b5e5ccd70, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1609942879167489452, guid: f7f260327f50142458efa02b5e5ccd70, type: 3}
       propertyPath: m_TagString
       value: Suelo
       objectReference: {fileID: 0}
     - target: {fileID: 1609942879167489452, guid: f7f260327f50142458efa02b5e5ccd70, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 126
       objectReference: {fileID: 0}
     - target: {fileID: 1823073071279813812, guid: f7f260327f50142458efa02b5e5ccd70, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -14191,6 +14287,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2496512863975506279, guid: 088d0bd36255cef41b168c6eb50ac7f1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2496512864998213719, guid: 088d0bd36255cef41b168c6eb50ac7f1, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -16354,6 +16454,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1198331685}
     m_Modifications:
+    - target: {fileID: 4268512455186502882, guid: a61438d58aca85241a4bbf9aa549b50a, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4860212274821868137, guid: a61438d58aca85241a4bbf9aa549b50a, type: 3}
       propertyPath: m_Name
       value: bosque derecha (1)
@@ -17122,6 +17226,10 @@ PrefabInstance:
       propertyPath: speedPlayer
       value: 
       objectReference: {fileID: 1583043768}
+    - target: {fileID: 1634682372879341186, guid: 526ded81388cf1e4897f906d1f67762e, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2181468735363278393, guid: 526ded81388cf1e4897f906d1f67762e, type: 3}
       propertyPath: m_RootOrder
       value: 19
@@ -18365,12 +18473,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: Roadobj (2) inicial (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1609942878059242459, guid: f7f260327f50142458efa02b5e5ccd70, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1609942878263246070, guid: f7f260327f50142458efa02b5e5ccd70, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 24b6778a052326c47942d5d4d583c457, type: 2}
     - target: {fileID: 1609942878263246071, guid: f7f260327f50142458efa02b5e5ccd70, type: 3}
       propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609942878263246073, guid: f7f260327f50142458efa02b5e5ccd70, type: 3}
+      propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1609942878295473591, guid: f7f260327f50142458efa02b5e5ccd70, type: 3}
@@ -18381,9 +18497,29 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1609942878295473594, guid: f7f260327f50142458efa02b5e5ccd70, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1609942879167489450, guid: f7f260327f50142458efa02b5e5ccd70, type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609942879167489450, guid: f7f260327f50142458efa02b5e5ccd70, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609942879167489452, guid: f7f260327f50142458efa02b5e5ccd70, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1823073071279813812, guid: f7f260327f50142458efa02b5e5ccd70, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7032255637216555751, guid: f7f260327f50142458efa02b5e5ccd70, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f7f260327f50142458efa02b5e5ccd70, type: 3}
@@ -18461,6 +18597,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2193610258130155962, guid: 07d2ba297d9e56646869ca5a5a06789a, type: 3}
       propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8125728665189369050, guid: 07d2ba297d9e56646869ca5a5a06789a, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8659805942628512865, guid: 07d2ba297d9e56646869ca5a5a06789a, type: 3}
@@ -18754,6 +18894,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7815005035236292201, guid: 37baa1d6887abea49b9280faef58ef7e, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37baa1d6887abea49b9280faef58ef7e, type: 3}
 --- !u!4 &1658793910 stripped
@@ -18777,6 +18921,10 @@ PrefabInstance:
       propertyPath: speedPlayer
       value: 
       objectReference: {fileID: 1583043768}
+    - target: {fileID: 2261145877271348370, guid: aa880d5f9559d2c4bb243cb6d654d005, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3387046577097187560, guid: aa880d5f9559d2c4bb243cb6d654d005, type: 3}
       propertyPath: m_Name
       value: gasolinera derecha1 (1)
@@ -18902,6 +19050,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5651249558939628, guid: 74cadd9c163d90a4fb4ede428b28a24f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7756295998263530440, guid: 74cadd9c163d90a4fb4ede428b28a24f, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -19270,6 +19422,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7121479809730144531, guid: 37baa1d6887abea49b9280faef58ef7e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815005035236292201, guid: 37baa1d6887abea49b9280faef58ef7e, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -20232,6 +20388,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1198331685}
     m_Modifications:
+    - target: {fileID: 1634682372879341186, guid: 526ded81388cf1e4897f906d1f67762e, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2181468735363278393, guid: 526ded81388cf1e4897f906d1f67762e, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -21334,6 +21494,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7756295998263530440, guid: 74cadd9c163d90a4fb4ede428b28a24f, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 74cadd9c163d90a4fb4ede428b28a24f, type: 3}
 --- !u!4 &1861536666 stripped
@@ -21738,6 +21902,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 949736376255504503, guid: 1520ace10e38f1e4a83ec471147b2b7a, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7177334764207840535, guid: 1520ace10e38f1e4a83ec471147b2b7a, type: 3}
       propertyPath: m_Name
       value: pueblo derecha 1 (2)
@@ -21891,6 +22059,10 @@ PrefabInstance:
       propertyPath: speedPlayer
       value: 
       objectReference: {fileID: 1583043768}
+    - target: {fileID: 4268512455186502882, guid: a61438d58aca85241a4bbf9aa549b50a, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4860212274821868137, guid: a61438d58aca85241a4bbf9aa549b50a, type: 3}
       propertyPath: m_Name
       value: bosque derecha (4)
@@ -22484,6 +22656,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7815005035236292201, guid: 37baa1d6887abea49b9280faef58ef7e, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37baa1d6887abea49b9280faef58ef7e, type: 3}
 --- !u!1 &1954942837 stripped
@@ -22701,6 +22877,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2496512863975506279, guid: 088d0bd36255cef41b168c6eb50ac7f1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2496512864998213719, guid: 088d0bd36255cef41b168c6eb50ac7f1, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -23532,6 +23712,10 @@ PrefabInstance:
       propertyPath: speedPlayer
       value: 
       objectReference: {fileID: 1583043768}
+    - target: {fileID: 4256412273415123298, guid: 37f9b0082e01c5b4d8abf61dbc635d92, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6171329700277193730, guid: 37f9b0082e01c5b4d8abf61dbc635d92, type: 3}
       propertyPath: m_Name
       value: gasolinera izquierda1 (2)
@@ -23563,6 +23747,10 @@ PrefabInstance:
       propertyPath: speedPlayer
       value: 
       objectReference: {fileID: 1583043768}
+    - target: {fileID: 1634682372879341186, guid: 526ded81388cf1e4897f906d1f67762e, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2181468735363278393, guid: 526ded81388cf1e4897f906d1f67762e, type: 3}
       propertyPath: m_RootOrder
       value: 20
@@ -26771,6 +26959,10 @@ PrefabInstance:
       propertyPath: speedPlayer
       value: 
       objectReference: {fileID: 1583043768}
+    - target: {fileID: 1634682372879341186, guid: 526ded81388cf1e4897f906d1f67762e, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2181468735363278393, guid: 526ded81388cf1e4897f906d1f67762e, type: 3}
       propertyPath: m_RootOrder
       value: 13
