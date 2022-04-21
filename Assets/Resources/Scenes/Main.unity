@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.6645444, g: 0.88344455, b: 0.88508445, a: 1}
+  m_IndirectSpecularColor: {r: 0.6655409, g: 0.8825091, b: 0.8856726, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -5029,11 +5029,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 568a8d1e60849494bbb7d25b6475867b, type: 3}
---- !u!1 &581105827 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1609942878059242459, guid: f7f260327f50142458efa02b5e5ccd70, type: 3}
-  m_PrefabInstance: {fileID: 56605706}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &581105828 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1609942878059242455, guid: f7f260327f50142458efa02b5e5ccd70, type: 3}
@@ -8730,7 +8725,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 0}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -15553,7 +15548,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7777778, y: 1}
+    m_SensorSize: {x: 1.7785715, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -18002,7 +17997,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7777778, y: 1}
+    m_SensorSize: {x: 1.7785715, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -18303,11 +18298,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   secttion:
-  - {fileID: 1743987753}
   - {fileID: 1002278361}
+  - {fileID: 1743987753}
   - {fileID: 228105899}
   - {fileID: 874073430}
   - {fileID: 2060322587}
+  - {fileID: 1646879396}
   - {fileID: 787258452}
   - {fileID: 31664574}
   - {fileID: 1305104859}
@@ -18317,13 +18313,13 @@ MonoBehaviour:
   - {fileID: 1818280849}
   - {fileID: 227437892}
   - {fileID: 1169493283}
-  - {fileID: 581105827}
   - {fileID: 1165684363}
   - {fileID: 664866779}
   - {fileID: 1454336300}
   - {fileID: 669196577}
   spawnPos: 382.32
   totalSections: 11
+  difficultyCounter: 0
   tunnelCounter: 0
   checkpointCounter: 0
   levelChangeRight: 0
@@ -18795,6 +18791,11 @@ PrefabInstance:
 --- !u!4 &1646879395 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1609942878059242455, guid: f7f260327f50142458efa02b5e5ccd70, type: 3}
+  m_PrefabInstance: {fileID: 1646879394}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1646879396 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1609942878059242459, guid: f7f260327f50142458efa02b5e5ccd70, type: 3}
   m_PrefabInstance: {fileID: 1646879394}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1652588911
@@ -20314,7 +20315,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7777778, y: 1}
+    m_SensorSize: {x: 1.7785715, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -20643,7 +20644,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 0}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -24389,7 +24390,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: '0 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 0}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -24580,7 +24581,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: '0 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 0}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -24905,7 +24906,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 0
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 0}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -26735,7 +26736,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7777778, y: 1}
+    m_SensorSize: {x: 1.7785715, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
