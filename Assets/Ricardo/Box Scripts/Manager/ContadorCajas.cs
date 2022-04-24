@@ -6,10 +6,10 @@ using UnityEngine.UI;
 public class ContadorCajas : MonoBehaviour
 {
 
-    [SerializeField] private int contador;
+    public int contador;
     [SerializeField] int cC, cV, cA;
     [SerializeField] Text cont;
-    [SerializeField] Eventos eventoGanarCaja, eventoPerderCaja, eventoGameOver,reinicioCajas;
+    [SerializeField] Eventos eventoGanarCaja, eventoPerderCaja, eventoGameOver,reinicioCajas,cambiarVel;
     [SerializeField] Eventos ganarC, ganarV, ganarA,perderC,perderV,perderA;
     [SerializeField] Eventos recogerCV, recogerCA, recogerCC;
     [SerializeField] Eventos reiniciarV, reiniciarA, reiniciarC;
@@ -43,11 +43,13 @@ public class ContadorCajas : MonoBehaviour
     {
         contador++;
         cont.text = contador.ToString();
+        cambiarVel.FireEvent();
     }
     void RestarCajas()
     {
         contador--;
         cont.text = contador.ToString();
+        cambiarVel.FireEvent();
         GameOver();
     }
     void SumarCafe()
@@ -101,6 +103,7 @@ public class ContadorCajas : MonoBehaviour
             cV = 1;
         }
         contador = cC + cA + cV;
+        cambiarVel.FireEvent();
         cont.text = contador.ToString();
     }
     void GameOver()

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.6645444, g: 0.88344455, b: 0.88508445, a: 1}
+  m_IndirectSpecularColor: {r: 0.6655411, g: 0.882509, b: 0.8856727, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1069,6 +1069,10 @@ PrefabInstance:
       propertyPath: cont
       value: 
       objectReference: {fileID: 206664488}
+    - target: {fileID: 6771947350433086498, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
+      propertyPath: cambiarVel
+      value: 
+      objectReference: {fileID: 11400000, guid: 206d0d3673d7e0f4ba3d462a5b727400, type: 2}
     - target: {fileID: 6771947350433086499, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
       propertyPath: m_Name
       value: ManagerCajas
@@ -10699,6 +10703,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
+--- !u!114 &1018313324 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6771947350433086498, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
+  m_PrefabInstance: {fileID: 90468668}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4fffeed425692a43b5e5fc91376d708, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1024497586
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25097,6 +25112,14 @@ PrefabInstance:
       propertyPath: ganarCaja
       value: 
       objectReference: {fileID: 11400000, guid: ebfde86aee25e5b479ce01804dcf6f86, type: 2}
+    - target: {fileID: 4565522730625558111, guid: b0fd7ae53567f7642b794c0881e34809, type: 3}
+      propertyPath: cambiarVel
+      value: 
+      objectReference: {fileID: 11400000, guid: 206d0d3673d7e0f4ba3d462a5b727400, type: 2}
+    - target: {fileID: 4565522730625558111, guid: b0fd7ae53567f7642b794c0881e34809, type: 3}
+      propertyPath: contCajasM
+      value: 
+      objectReference: {fileID: 1018313324}
     - target: {fileID: 4565522730625558111, guid: b0fd7ae53567f7642b794c0881e34809, type: 3}
       propertyPath: perderCaja
       value: 

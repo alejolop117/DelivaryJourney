@@ -24,8 +24,8 @@ public class OscilarCarro : MonoBehaviour
 
     void FixedUpdate()
     {
-        posicionNueva.z += -speedPlayer.speed * 0.01f * Time.deltaTime;
-        posicionRelativa.z = (posicionNueva.z * 100f);
+        posicionNueva.z = 0;
+        posicionRelativa.z += -speedPlayer.speed  * Time.deltaTime;
         posicionNueva.x = Mathf.Sin(posicionRelativa.z * oscilationSpeed) * amplitud;
 
         transform.localPosition = posicionNueva;

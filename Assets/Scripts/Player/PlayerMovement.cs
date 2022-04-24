@@ -10,7 +10,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float angularMagnitude = 90;
     [Range(0,49)]
     [SerializeField] float pesoPorCaja;
-    [SerializeField] Eventos deslizar, acelerate,ganarCaja,perderCaja,ganarVel;
+    [SerializeField] Eventos deslizar, acelerate,cambiarVel;
     [SerializeField] float deslice,duracionDeslizar;
     [SerializeField] TextMeshProUGUI speedViewer;
     [SerializeField] AudioManager audioManager; 
@@ -22,16 +22,19 @@ public class PlayerMovement : MonoBehaviour
     Animator anim;
     public int roadCounter = 0; // Para contar las pistas que ha pasado.
     [SerializeField]int resetCounter = 100; // Cada X pistas se reinicia el roadCounter
-    
+
+    private int pastCont;
+    public ContadorCajas contCajasM;
     private void Awake() {
+
+        pastCont = 3;
         rb = GetComponent<Rigidbody>();
         anim = GetComponentInChildren<Animator>();
         speed = speed - (pesoPorCaja * 3);
         deslice = deslice - (deslice * 0.3f);
-        angularMagnitude = angularMagnitude - (angularMagnitude * 0.45f);
-        ganarCaja.GEvent += PerderVel;
-        perderCaja.GEvent += GanarVel;
-        ganarVel.GEvent += GanarVel;
+        angularMagnitude = angularMagnitude - (angularMagnitude * 0.27f);
+
+        cambiarVel.GEvent += ActualizarVel;
     }
     void Start()
     {
@@ -55,17 +58,14 @@ public class PlayerMovement : MonoBehaviour
         ChangeSpeed();
         PrintText();
     }
-    void GanarVel()
+    
+    void ActualizarVel()
     {
-        speed += pesoPorCaja;
-        deslice += deslice * 0.1f;
-        angularMagnitude += angularMagnitude * 0.15f;
-    }
-    void PerderVel()
-    {
-        speed -= pesoPorCaja;
-        deslice -= deslice * 0.1f;
-        angularMagnitude -= angularMagnitude * 0.15f;
+        
+            speed +=((pastCont- contCajasM.contador) * pesoPorCaja);
+            deslice += (deslice * 0.1f* (pastCont - contCajasM.contador));
+            angularMagnitude +=(angularMagnitude * 0.09f* (pastCont - contCajasM.contador));
+            pastCont =  contCajasM.contador;
     }
 
     void PrintText() {
@@ -116,15 +116,12 @@ public class PlayerMovement : MonoBehaviour
     private void OnDestroy()
     {
         deslizar.GEvent -= ResbalarLlantas;
-        ganarCaja.GEvent -= PerderVel;
-        perderCaja.GEvent -= GanarVel;
-        ganarVel.GEvent -= GanarVel;
+        cambiarVel.GEvent -= ActualizarVel;
     }
     private void OnDisable()
     {
         deslizar.GEvent -= ResbalarLlantas;
-        ganarCaja.GEvent -= PerderVel;
-        perderCaja.GEvent -= GanarVel;
+        cambiarVel.GEvent -= ActualizarVel;
     }
 
     private void OnTriggerEnter(Collider other) {
