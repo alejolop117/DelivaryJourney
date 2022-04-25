@@ -141,11 +141,7 @@ MonoBehaviour:
   save: 0
   crecer: {fileID: 498688158526743122}
   contadorP: 0
-  "tama\xF1oActual": 0
-  "tama\xF1o": {fileID: 0}
-  crecimiento: {x: 0, y: 0, z: 0}
-  "tama\xF1oFinal": {x: 0, y: 0, z: 0}
-  "tama\xF1oInicial": {x: 0, y: 0, z: 0}
+  "tama\xF1oInicial": {x: 0.5, y: 0.5, z: 0.5}
 --- !u!114 &2341070313859949608
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -160,7 +156,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   eventoPerderCaja: {fileID: 11400000, guid: 8b4dacae1fa2fd1468903fbf7dfb11db, type: 2}
   eventoPerderColor: {fileID: 11400000, guid: 8be2768ff72df6a48b655cf7451f63ab, type: 2}
-  "tama\xF1os": {fileID: 7244597907024298359}
   choque: {fileID: 6956618473228030288}
   duracionEfecto: 0.4
 --- !u!1001 &4715543749979625134

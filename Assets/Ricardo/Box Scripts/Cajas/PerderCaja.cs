@@ -5,7 +5,7 @@ using UnityEngine;
 public class PerderCaja : MonoBehaviour
 {
     [SerializeField] private Eventos eventoPerderCaja,eventoPerderColor;
-    [SerializeField] Crecer tamaños;
+    //[SerializeField] Crecer tamaños;
     [SerializeField] private ParticleSystem choque;
     [SerializeField] private float duracionEfecto; 
     private bool eventoDisparado = false;
@@ -21,10 +21,10 @@ public class PerderCaja : MonoBehaviour
     {
         choque.Play();
         eventoPerderCaja.FireEvent();
-        
+
         eventoDisparado = true;
-        tamaños.tamaño.localScale = tamaños.tamañoInicial;
-        tamaños.tamañoActual = 0;
+        /* tamaños.tamaño.localScale = tamaños.tamañoInicial;
+        tamaños.tamañoActual = 0;*/
 
         //Debug.Log("se callo la caja");
         yield return new WaitForSeconds(duracionEfecto);

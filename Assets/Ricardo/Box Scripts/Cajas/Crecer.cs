@@ -15,21 +15,26 @@ public class Crecer : MonoBehaviour , IReiniciable //hereda de una interfaz
     //[SerializeField] BoxScore puntuacion;
 
 
-    private bool disparoEvento = false; //determina si se ha disparado por lo menos una vez el evento
-    public float tamañoActual = 0; //contador de cuantas veces ha crecido mla caja
-    public Transform tamaño; //referencia a los parametros de escala del objeto
-    public Vector3 crecimiento, tamañoFinal, tamañoInicial; //vectores que determinan distintos tamaños del objeto
+     bool disparoEvento = false; //determina si se ha disparado por lo menos una vez el evento
+     float tamañoActual = 0; //contador de cuantas veces ha crecido mla caja
+     Transform tamaño; //referencia a los parametros de escala del objeto
+     Vector3 crecimiento, tamañoFinal; //vectores que determinan distintos tamaños del objeto
+    [SerializeField] Vector3 tamañoInicial;
     // Start is called before the first frame update
+    private void Awake()
+    {
+        tamaño = GetComponent<Transform>(); //se obtiene el componente del transform
+        crecimiento = new Vector3(ritmoDeCrecimiento, ritmoDeCrecimiento, ritmoDeCrecimiento); //se determina el vector de cada cuanto crece dependiendo del ritmo
+        tamañoFinal = new Vector3(tamañoMaximo, tamañoMaximo, tamañoMaximo); //se determina el vector de tamaño final de acuerdo al tamaño maximo
+    }
     void Start()
     {
         save = false; //al inicio no pasa por un punto de reinicio
         contadorP = 1;
-        crecimiento = new Vector3(ritmoDeCrecimiento, ritmoDeCrecimiento, ritmoDeCrecimiento); //se determina el vector de cada cuanto crece dependiendo del ritmo
-        tamañoFinal = new Vector3(tamañoMaximo, tamañoMaximo, tamañoMaximo); //se determina el vector de tamaño final de acuerdo al tamaño maximo
-        tamaño = GetComponent<Transform>(); //se obtiene el componente del transform
-        tamañoInicial = new Vector3(tamaño.localScale.x,tamaño.localScale.y,tamaño.localScale.z); //se tiene una referencia del tamaño inicial, util para cuando se reinicia el objeto
+        //tamañoInicial = new Vector3(tamaño.localScale.x,tamaño.localScale.y,tamaño.localScale.z); //se tiene una referencia del tamaño inicial, util para cuando se reinicia el objeto
         eventoRecoger.GEvent += CrecerCaja;  //se subscriben dichas funciones a dichos eventos
         eventoReiniciar.GEvent += Desaparecer;
+        reiniciarTamaño();
         //perderCajaG.GEvent += PerderCaja;
     }
 
@@ -59,9 +64,8 @@ public class Crecer : MonoBehaviour , IReiniciable //hereda de una interfaz
     {
         if (save == false)
         {
-            tamaño.localScale = tamañoInicial;
-            tamañoActual = 0;
-            
+
+            reiniciarTamaño();
             this.gameObject.SetActive(false);
             //ganarVel.FireEvent();
 
@@ -70,6 +74,12 @@ public class Crecer : MonoBehaviour , IReiniciable //hereda de una interfaz
         {
             save = false;
         }
+    }
+    void reiniciarTamaño()
+    {
+        tamaño.localScale = tamañoInicial;
+        tamañoActual = 0;
+       
     }
    /* void PerderCaja()
     {
@@ -85,8 +95,7 @@ public class Crecer : MonoBehaviour , IReiniciable //hereda de una interfaz
         save = true;
         disparoEvento = false;
         //Debug.Log("Llego la caja");
-        tamañoActual = 0;
-        tamaño.localScale = tamañoInicial;
+        reiniciarTamaño();
         eventoReiniciar.FireEvent();
         entregaCaja.FireEvent();
     }
@@ -96,5 +105,14 @@ public class Crecer : MonoBehaviour , IReiniciable //hereda de una interfaz
         eventoReiniciar.GEvent -= Desaparecer;
         //perderCaja.GEvent -= PerderCaja;
     }
-    
+    private void OnEnable()
+    {
+        reiniciarTamaño();
+
+    }
+    private void OnDisable()
+    {
+        reiniciarTamaño();
+        Debug.Log("se reinicio el tamaño al apagarse");
+    }
 }
