@@ -31,8 +31,8 @@ public class SkinsManager : MonoBehaviour
 
     public void QuitGame()
     {
-
-        Application.Quit();
+        Input.backButtonLeavesApp = true;
+       // Application.Quit();
     }
 
 
