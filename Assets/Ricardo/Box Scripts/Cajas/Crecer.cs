@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Crecer : MonoBehaviour , IReiniciable //hereda de una interfaz 
 {
-    [SerializeField] private Eventos eventoRecoger, eventoLleno, eventoGanarCaja,eventoReiniciar, entregaCaja, perderCaja;
+    [SerializeField] private Eventos eventoRecoger, eventoLleno, eventoGanarCaja,eventoReiniciar, entregaCaja, perderCaja,perderCajaG;
     [SerializeField] private float tamañoMaximo; //es el tamaño maximo de la caja
     [SerializeField] private float ritmoDeCrecimiento; //lo que crece por cada caja recolectada
     [SerializeField] private bool save; //determina si ha pasado por un punto de reinicio o no
@@ -16,9 +16,9 @@ public class Crecer : MonoBehaviour , IReiniciable //hereda de una interfaz
 
 
     private bool disparoEvento = false; //determina si se ha disparado por lo menos una vez el evento
-    private float tamañoActual = 0; //contador de cuantas veces ha crecido mla caja
-    private Transform tamaño; //referencia a los parametros de escala del objeto
-    private Vector3 crecimiento, tamañoFinal, tamañoInicial; //vectores que determinan distintos tamaños del objeto
+    public float tamañoActual = 0; //contador de cuantas veces ha crecido mla caja
+    public Transform tamaño; //referencia a los parametros de escala del objeto
+    public Vector3 crecimiento, tamañoFinal, tamañoInicial; //vectores que determinan distintos tamaños del objeto
     // Start is called before the first frame update
     void Start()
     {
@@ -30,7 +30,7 @@ public class Crecer : MonoBehaviour , IReiniciable //hereda de una interfaz
         tamañoInicial = new Vector3(tamaño.localScale.x,tamaño.localScale.y,tamaño.localScale.z); //se tiene una referencia del tamaño inicial, util para cuando se reinicia el objeto
         eventoRecoger.GEvent += CrecerCaja;  //se subscriben dichas funciones a dichos eventos
         eventoReiniciar.GEvent += Desaparecer;
-        //perderCaja.GEvent += PerderCaja;
+        //perderCajaG.GEvent += PerderCaja;
     }
 
     void CrecerCaja()
@@ -71,9 +71,12 @@ public class Crecer : MonoBehaviour , IReiniciable //hereda de una interfaz
             save = false;
         }
     }
-    /*void PerderCaja()
+   /* void PerderCaja()
     {
-        puntuacion.count = puntuacion.count-contadorP;
+        tamaño.localScale = tamañoInicial;
+        tamañoActual = 0;
+
+        this.gameObject.SetActive(false);
     }*/
     //verifica que ha pasado el objeto por el punto de inicio y otra vez pone en "0" las veces que ha disparado un evento
     //ademas devuelve el tamaño de la caja a su estado original

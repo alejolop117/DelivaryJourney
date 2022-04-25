@@ -135,12 +135,17 @@ MonoBehaviour:
   eventoReiniciar: {fileID: 11400000, guid: ea7ed38104758ff49a0ec08c24f6ac88, type: 2}
   entregaCaja: {fileID: 11400000, guid: 88b76626ff6a1364ba02425587f4cd90, type: 2}
   perderCaja: {fileID: 11400000, guid: 8be2768ff72df6a48b655cf7451f63ab, type: 2}
-  ganarVel: {fileID: 11400000, guid: ebbb0702c86eb1d4d84103b7a52cee82, type: 2}
+  perderCajaG: {fileID: 11400000, guid: 8b4dacae1fa2fd1468903fbf7dfb11db, type: 2}
   "tama\xF1oMaximo": 0.125
   ritmoDeCrecimiento: 0.025
   save: 0
   crecer: {fileID: 498688158526743122}
   contadorP: 0
+  "tama\xF1oActual": 0
+  "tama\xF1o": {fileID: 0}
+  crecimiento: {x: 0, y: 0, z: 0}
+  "tama\xF1oFinal": {x: 0, y: 0, z: 0}
+  "tama\xF1oInicial": {x: 0, y: 0, z: 0}
 --- !u!114 &2341070313859949608
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -155,6 +160,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   eventoPerderCaja: {fileID: 11400000, guid: 8b4dacae1fa2fd1468903fbf7dfb11db, type: 2}
   eventoPerderColor: {fileID: 11400000, guid: 8be2768ff72df6a48b655cf7451f63ab, type: 2}
+  "tama\xF1os": {fileID: 7244597907024298359}
   choque: {fileID: 6956618473228030288}
   duracionEfecto: 0.4
 --- !u!1001 &4715543749979625134
