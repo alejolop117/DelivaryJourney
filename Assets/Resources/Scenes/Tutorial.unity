@@ -3963,6 +3963,17 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 871719552}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &896686849 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6771947350433086498, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
+  m_PrefabInstance: {fileID: 1468660258}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4fffeed425692a43b5e5fc91376d708, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &932789752 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6987525094121919178, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
@@ -12375,6 +12386,14 @@ PrefabInstance:
       propertyPath: ganarCaja
       value: 
       objectReference: {fileID: 11400000, guid: ebfde86aee25e5b479ce01804dcf6f86, type: 2}
+    - target: {fileID: 4565522730625558111, guid: b0fd7ae53567f7642b794c0881e34809, type: 3}
+      propertyPath: cambiarVel
+      value: 
+      objectReference: {fileID: 11400000, guid: 206d0d3673d7e0f4ba3d462a5b727400, type: 2}
+    - target: {fileID: 4565522730625558111, guid: b0fd7ae53567f7642b794c0881e34809, type: 3}
+      propertyPath: contCajasM
+      value: 
+      objectReference: {fileID: 896686849}
     - target: {fileID: 4565522730625558111, guid: b0fd7ae53567f7642b794c0881e34809, type: 3}
       propertyPath: perderCaja
       value: 
