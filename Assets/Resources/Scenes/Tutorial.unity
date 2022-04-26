@@ -2417,6 +2417,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6987525094121919178, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
   m_PrefabInstance: {fileID: 554952233}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &548265582 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1758057107, guid: e65425c503cd456429b87f919b80cf0c, type: 3}
+  m_PrefabInstance: {fileID: 1375502712}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &548866642
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5988,8 +5993,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 777623135, guid: e65425c503cd456429b87f919b80cf0c, type: 3}
       propertyPath: m_Text
-      value: Procura manejar con cuidado y no perder todas tus cajas o el contador
-        llegara a 0 y perderas automaticamente
+      value: Procura manejar con cuidado y no perder todas tus cajas o  perderas
+        automaticamente
       objectReference: {fileID: 0}
     - target: {fileID: 1301821922, guid: e65425c503cd456429b87f919b80cf0c, type: 3}
       propertyPath: m_IsActive
@@ -6157,7 +6162,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8793794942616384072, guid: e65425c503cd456429b87f919b80cf0c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -294.74
+      value: -307.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793794942616384072, guid: e65425c503cd456429b87f919b80cf0c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 138.9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e65425c503cd456429b87f919b80cf0c, type: 3}
@@ -6755,6 +6764,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 169492240, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
+      propertyPath: conteo
+      value: 
+      objectReference: {fileID: 1871161635}
+    - target: {fileID: 169492240, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
+      propertyPath: recordMessage
+      value: 
+      objectReference: {fileID: 548265582}
     - target: {fileID: 6771947350433086498, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
       propertyPath: cont
       value: 

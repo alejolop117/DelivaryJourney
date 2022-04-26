@@ -15,6 +15,7 @@ public class Recoger : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
+        
         if (other.tag == "Player")
         {
             evento.FireEvent();

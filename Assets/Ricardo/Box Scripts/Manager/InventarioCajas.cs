@@ -5,8 +5,10 @@ using TMPro;
 public class InventarioCajas : MonoBehaviour
 {
     [SerializeField] private Eventos recogerCaja, reinicioCaja,perderColor,ganarSkin,finTutorial,gameOver;
+    //[SerializeField] Eventos sumarC, sumarA, sumarV;
     [SerializeField] private string nombreCaja;
     [SerializeField] TextMeshProUGUI conteoCaja;
+    [SerializeField] BoxRecordDelivery record;
     [SerializeField] private bool pruebas;
     [SerializeField] private int maximoPorCaja, conteoActual, cajasLlenas,objetivoSkin;
     [SerializeField] int skinGanada;
@@ -62,6 +64,22 @@ public class InventarioCajas : MonoBehaviour
     void Reinicio()
     {
         conteoGeneral = conteoActual + maximoPorCaja * cajasLlenas + conteoGeneral;
+        if (nombreCaja == "Azul")
+        {
+            record.conteoAzul += conteoActual + maximoPorCaja * cajasLlenas;
+           // sumarA.FireEvent();
+        }
+        if (nombreCaja == "Cafe")
+        {
+            record.conteoCafe += conteoActual + maximoPorCaja * cajasLlenas;
+            //sumarC.FireEvent();
+        }
+        if (nombreCaja == "Verde")
+        {
+            record.conteoVerde += conteoActual + maximoPorCaja * cajasLlenas;
+            //sumarV.FireEvent();
+        }
+        conteoActual = 1;
         PlayerPrefs.SetInt("Conteo Cajas " + nombreCaja, conteoGeneral);
         conteoCaja.text = ((PlayerPrefs.GetInt("Conteo Cajas " + nombreCaja)).ToString()) + " / "+objetivoSkin;
         
@@ -95,6 +113,7 @@ public class InventarioCajas : MonoBehaviour
     {
         PlayerPrefs.SetInt("Conteo Cajas " + nombreCaja, 0);
         PlayerPrefs.SetInt("Skin " + nombreCaja + " ganada", 0);
+        PlayerPrefs.SetInt("Record", 0);
     }
     void GameOver()
     {

@@ -113,6 +113,6 @@ public class Crecer : MonoBehaviour , IReiniciable //hereda de una interfaz
     private void OnDisable()
     {
         reiniciarTamaño();
-        Debug.Log("se reinicio el tamaño al apagarse");
+        //Debug.Log("se reinicio el tamaño al apagarse");
     }
 }

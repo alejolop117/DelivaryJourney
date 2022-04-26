@@ -8,7 +8,7 @@ public class ContadorCajas : MonoBehaviour
 
     public int contador;
     [SerializeField] int cC, cV, cA;
-    [SerializeField] Text cont;
+    //[SerializeField] Text cont;
     [SerializeField] Eventos eventoGanarCaja, eventoPerderCaja, eventoGameOver,reinicioCajas,cambiarVel;
     [SerializeField] Eventos ganarC, ganarV, ganarA,perderC,perderV,perderA;
     [SerializeField] Eventos recogerCV, recogerCA, recogerCC;
@@ -21,7 +21,7 @@ public class ContadorCajas : MonoBehaviour
         cV = 1;
         cA = 1;
         contador = cC + cV + cA;
-        cont.text = contador.ToString();
+        //cont.text = contador.ToString();
         eventoGanarCaja.GEvent += SumarCajas;
         eventoPerderCaja.GEvent += RestarCajas;
 
@@ -42,13 +42,13 @@ public class ContadorCajas : MonoBehaviour
     void SumarCajas()
     {
         contador++;
-        cont.text = contador.ToString();
+        //cont.text = contador.ToString();
         cambiarVel.FireEvent();
     }
     void RestarCajas()
     {
         contador--;
-        cont.text = contador.ToString();
+        //cont.text = contador.ToString();
         cambiarVel.FireEvent();
         GameOver();
     }
@@ -104,7 +104,7 @@ public class ContadorCajas : MonoBehaviour
         }
         contador = cC + cA + cV;
         cambiarVel.FireEvent();
-        cont.text = contador.ToString();
+        //cont.text = contador.ToString();
     }
     void GameOver()
     {
@@ -120,7 +120,7 @@ public class ContadorCajas : MonoBehaviour
         {
             cV = 1;
             contador++;
-            cont.text = contador.ToString();
+            //cont.text = contador.ToString();
             reiniciarV.FireEvent();
             spawnV.FireEvent();
         }
@@ -131,7 +131,7 @@ public class ContadorCajas : MonoBehaviour
         {
             cA = 1;
             contador++;
-            cont.text = contador.ToString();
+            //cont.text = contador.ToString();
             reiniciarA.FireEvent();
             spawnA.FireEvent();
         }
@@ -142,7 +142,7 @@ public class ContadorCajas : MonoBehaviour
         {
             cC = 1;
             contador++;
-            cont.text = contador.ToString();
+            //cont.text = contador.ToString();
             reiniciarC.FireEvent();
             spawnC.FireEvent();
         }
