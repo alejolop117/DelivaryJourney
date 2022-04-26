@@ -1065,46 +1065,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 291761257}
     m_Modifications:
-    - target: {fileID: 6771947350433086498, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
-      propertyPath: cont
+    - target: {fileID: 169492240, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
+      propertyPath: conteo
       value: 
       objectReference: {fileID: 206664488}
-    - target: {fileID: 6771947350433086498, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
-      propertyPath: cambiarVel
+    - target: {fileID: 169492240, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
+      propertyPath: recordMessage
       value: 
-      objectReference: {fileID: 11400000, guid: 206d0d3673d7e0f4ba3d462a5b727400, type: 2}
+      objectReference: {fileID: 1236880627}
     - target: {fileID: 6771947350433086499, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
       propertyPath: m_Name
       value: ManagerCajas
       objectReference: {fileID: 0}
-    - target: {fileID: 6771947350433086499, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 6771947350433086505, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
-      propertyPath: pruebas
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6771947350433086505, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
-      propertyPath: gameOver
-      value: 
-      objectReference: {fileID: 11400000, guid: d0c05096ef1f3814bb51069f12b10a2e, type: 2}
     - target: {fileID: 6771947350433086505, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
       propertyPath: conteoCaja
       value: 
       objectReference: {fileID: 2645707340556011724}
-    - target: {fileID: 6771947350433086505, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
-      propertyPath: tiempoSkin
-      value: 1.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6771947350433086505, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
-      propertyPath: finTutorial
-      value: 
-      objectReference: {fileID: 11400000, guid: 9495b76b366eda64f9311f5e5c1b77aa, type: 2}
-    - target: {fileID: 6771947350433086505, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
-      propertyPath: objetivoSkin
-      value: 100
-      objectReference: {fileID: 0}
     - target: {fileID: 6771947350433086508, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
       propertyPath: m_RootOrder
       value: 26
@@ -1154,49 +1130,13 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 773947438}
     - target: {fileID: 6771947350433086510, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
-      propertyPath: pruebas
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6771947350433086510, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
-      propertyPath: gameOver
-      value: 
-      objectReference: {fileID: 11400000, guid: d0c05096ef1f3814bb51069f12b10a2e, type: 2}
-    - target: {fileID: 6771947350433086510, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
       propertyPath: conteoCaja
       value: 
       objectReference: {fileID: 2645707342145853312}
-    - target: {fileID: 6771947350433086510, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
-      propertyPath: tiempoSkin
-      value: 1.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6771947350433086510, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
-      propertyPath: finTutorial
-      value: 
-      objectReference: {fileID: 11400000, guid: 9495b76b366eda64f9311f5e5c1b77aa, type: 2}
-    - target: {fileID: 6771947350433086510, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
-      propertyPath: objetivoSkin
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 6771947350433086511, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
-      propertyPath: pruebas
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6771947350433086511, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
-      propertyPath: gameOver
-      value: 
-      objectReference: {fileID: 11400000, guid: d0c05096ef1f3814bb51069f12b10a2e, type: 2}
     - target: {fileID: 6771947350433086511, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
       propertyPath: conteoCaja
       value: 
       objectReference: {fileID: 2580680345822959591}
-    - target: {fileID: 6771947350433086511, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
-      propertyPath: tiempoSkin
-      value: 1.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6771947350433086511, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
-      propertyPath: finTutorial
-      value: 
-      objectReference: {fileID: 11400000, guid: 9495b76b366eda64f9311f5e5c1b77aa, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
 --- !u!1001 &104111140
@@ -3673,7 +3613,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 442509884}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -284.66, y: 223.43, z: 478.88}
+  m_LocalPosition: {x: -284.21, y: 223.43, z: 478.88}
   m_LocalScale: {x: 0.1, y: 2.67, z: 5.26}
   m_Children: []
   m_Father: {fileID: 291761257}
@@ -12775,6 +12715,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a3c5bafc5d068cb46b88666511c3257e, type: 3}
+--- !u!1 &1236880627 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1236880627, guid: b76adfe2df69ed54baef8ded26a72eaf, type: 3}
+  m_PrefabInstance: {fileID: 8793794943270789401}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1238024176
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26269,8 +26214,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5077874657423913133}
-  m_LocalRotation: {x: 0.17364816, y: -0, z: -0, w: 0.9848078}
-  m_LocalPosition: {x: 0, y: 5, z: 0.1000061}
+  m_LocalRotation: {x: 0.14254251, y: -0, z: -0, w: 0.9897887}
+  m_LocalPosition: {x: 0, y: 5, z: -11.190002}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5077874657776817741}
@@ -26441,7 +26386,7 @@ Camera:
     height: 1
   near clip plane: 0.1
   far clip plane: 5000
-  field of view: 60
+  field of view: 40
   orthographic: 0
   orthographic size: 10
   m_Depth: -1
