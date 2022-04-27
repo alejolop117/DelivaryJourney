@@ -18,15 +18,16 @@ public class PlayerMovement : MonoBehaviour
     public float speed = 150;
     Rigidbody rb;
     Vector3 direction = new Vector3(0,0,1);
-    bool right = false, left = false;
+    public bool right = false, left = false;
     Animator anim;
     public int roadCounter = 0; // Para contar las pistas que ha pasado.
     [SerializeField]int resetCounter = 100; // Cada X pistas se reinicia el roadCounter
+    TransformManager limits;
 
     private int pastCont;
     public ContadorCajas contCajasM;
     private void Awake() {
-
+        limits = GetComponent<TransformManager>();
         pastCont = 3;
         rb = GetComponent<Rigidbody>();
         anim = GetComponentInChildren<Animator>();
@@ -74,7 +75,7 @@ public class PlayerMovement : MonoBehaviour
     }
 
     public void IsRight() {
-        right = true;
+        if (transform.position.x < limits.xPos) right = true;
     }
 
     public void IsNotRight() {
@@ -82,7 +83,7 @@ public class PlayerMovement : MonoBehaviour
     }
 
     public void IsLeft() {
-        left = true;
+        if (transform.position.x > limits.xNeg) left = true;
     }
 
     public void IsNotLeft() {
