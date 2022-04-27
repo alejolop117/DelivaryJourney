@@ -1,17 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+using TMPro;
 
 public class PuntajeSkin : MonoBehaviour
 {
 
-    private Text puntaje;
+    private TextMeshProUGUI puntaje;
     [SerializeField] string nombre, requerimiento;
 
     public void Awake()
     {
-        puntaje = GetComponent<Text>();
+        puntaje = GetComponent<TextMeshProUGUI>();
         puntaje.text = PlayerPrefs.GetInt("Conteo Cajas " + nombre).ToString() + " / " + requerimiento;
     }
 }

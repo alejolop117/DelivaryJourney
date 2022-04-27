@@ -1,13 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+using TMPro;
 
 public class BoxRecordDelivery : MonoBehaviour
 {
     public int conteoCafe, conteoAzul, conteoVerde,conteoGeneralRun;
     [SerializeField] Eventos entregaCaja;
-    [SerializeField] Text conteo;
+    [SerializeField] TextMeshProUGUI conteo;
     [SerializeField] GameObject recordMessage;
     
     

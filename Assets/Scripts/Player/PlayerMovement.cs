@@ -70,7 +70,7 @@ public class PlayerMovement : MonoBehaviour
 
     void PrintText() {
         speedView = (int)speed;
-        speedViewer.text = " SPEED:\n" + speedView.ToString() + " Km/h";
+        speedViewer.text = speedView.ToString() + " Km/h";
     }
 
     public void IsRight() {
