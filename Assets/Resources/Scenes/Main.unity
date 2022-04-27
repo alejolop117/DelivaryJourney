@@ -26879,18 +26879,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4813438305736534979}
     m_Modifications:
-    - target: {fileID: 14908376826825550, guid: b76adfe2df69ed54baef8ded26a72eaf, type: 3}
-      propertyPath: m_isRightToLeft
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5392203367152302604, guid: b76adfe2df69ed54baef8ded26a72eaf, type: 3}
-      propertyPath: m_fontSize
-      value: 41.24
-      objectReference: {fileID: 0}
-    - target: {fileID: 5392203367152302604, guid: b76adfe2df69ed54baef8ded26a72eaf, type: 3}
-      propertyPath: m_fontSizeBase
-      value: 41.24
-      objectReference: {fileID: 0}
     - target: {fileID: 8793794942095207464, guid: b76adfe2df69ed54baef8ded26a72eaf, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -26979,6 +26967,5 @@ PrefabInstance:
       propertyPath: m_Name
       value: ContadorCajas
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 8793794943066395185, guid: b76adfe2df69ed54baef8ded26a72eaf, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b76adfe2df69ed54baef8ded26a72eaf, type: 3}
