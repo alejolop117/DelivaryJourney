@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ChangeScore : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class ChangeScore : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        index = PlayerPrefs.GetInt("ScoreSelected");
         PuntajesList = new GameObject[transform.childCount];
         for (int i = 0; i < transform.childCount; i++)
             PuntajesList[i] = transform.GetChild(i).gameObject;
@@ -37,5 +39,10 @@ public class ChangeScore : MonoBehaviour
             index = 0;
 
         PuntajesList[index].SetActive(true);
+    }
+    public void ConfirmButton()
+    {
+        PlayerPrefs.SetInt("ScoreSelected", index);
+        SceneManager.LoadScene("Tutorial");
     }
 }
