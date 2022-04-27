@@ -5,13 +5,22 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Resources/Scenes/Menu.unity
     guid: 51d3f21b13cd7204da8cbdb21aab6b05
-  - enabled: 0
-    path: Assets/Skins.unity
-    guid: 3e6200eecc5a5814b8a2ec096140697e
   - enabled: 1
+    path: Assets/Resources/Scenes/TEsteoMenu.unity
+    guid: 6bedfdf4232f71e4284f63de8fd94b86
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Resources/Scenes/VideoTEst.unity
+    guid: e65013ada8a70704ca8c1e44ef34e9e9
+  - enabled: 1
+    path: Assets/TutorialTesteo.unity
+    guid: d9cae7ead24b861488e0f4406632b1d8
+  - enabled: 0
     path: Assets/Resources/Scenes/Tutorial.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
@@ -27,6 +36,6 @@ EditorBuildSettings:
     path: Assets/Resources/Scenes/Juanes.unity
     guid: 0ea7019a129218b4697832ab5edae806
   - enabled: 0
-    path: Assets/Resources/Scenes/Alejo.unity
-    guid: 5eecba5de3a1d644c8e8b8e2a3968047
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects: {}
