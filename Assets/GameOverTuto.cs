@@ -13,7 +13,7 @@ public class GameOverTuto : MonoBehaviour
     public void CargarTuto()
     {
         Time.timeScale = 1;
-        SceneManager.LoadScene("Tutorial");
+        SceneManager.LoadScene("TutorialTesteo");
 
     }
     public void CargarMenu()
