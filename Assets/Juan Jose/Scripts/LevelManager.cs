@@ -22,7 +22,7 @@ public class LevelManager : MonoBehaviour
 
     private void Start()
     {
-        startSection = secttion[1];
+        startSection = secttion[Random.Range(3, 7)];
         startSection.SetActive(true);
         startSection.transform.position = spawn.position;
         startSection.transform.rotation = spawn.rotation;
@@ -54,7 +54,7 @@ public class LevelManager : MonoBehaviour
             {
                 do
                 {
-                    temp = secttion[Random.Range(1,7)];
+                    temp = secttion[Random.Range(3,7)];
                 }
                 while (temp.activeSelf == true);
 
@@ -67,7 +67,7 @@ public class LevelManager : MonoBehaviour
             {
                 do
                 {
-                    temp = secttion[Random.Range(1, 11)];
+                    temp = secttion[Random.Range(3, 11)];
                 }
                 while (temp.activeSelf == true);
 
@@ -76,11 +76,11 @@ public class LevelManager : MonoBehaviour
                 temp.transform.position = spawn.position;
                 temp.transform.rotation = spawn.rotation;
             }
-            else if (difficultyCounter >= 2)
+            else if (difficultyCounter == 2)
             {
                 do
                 {
-                    temp = secttion[Random.Range(1, 15)];
+                    temp = secttion[12];
                 }
                 while (temp.activeSelf == true);
 
@@ -88,6 +88,21 @@ public class LevelManager : MonoBehaviour
 
                 temp.transform.position = spawn.position;
                 temp.transform.rotation = spawn.rotation;
+                difficultyCounter++;
+            }
+            else if (difficultyCounter >= 3)
+            {
+                do
+                {
+                    temp = secttion[Random.Range(3,18)];
+                }
+                while (temp.activeSelf == true);
+
+                temp.SetActive(true);
+
+                temp.transform.position = spawn.position;
+                temp.transform.rotation = spawn.rotation;
+                difficultyCounter++;
             }
 
 
@@ -98,7 +113,7 @@ public class LevelManager : MonoBehaviour
         { 
             tunnelCounter++;
             GameObject temp;
-            temp = secttion[0];
+            temp = secttion[Random.Range(0,4)];
             temp.SetActive(true);
             temp.transform.position = spawn.position;
             temp.transform.rotation = spawn.rotation;
@@ -108,7 +123,7 @@ public class LevelManager : MonoBehaviour
         {
             difficultyCounter++;
             GameObject temp;
-            temp = secttion[Random.Range(15,19)];
+            temp = secttion[Random.Range(18,22)];
             temp.SetActive(true);
             temp.transform.position = spawn.position;
             temp.transform.rotation = spawn.rotation;
