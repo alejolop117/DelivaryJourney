@@ -141,7 +141,7 @@ MonoBehaviour:
   save: 0
   crecer: {fileID: 7473236324817641279}
   contadorP: 0
-  "tama\xF1oInicial": {x: 0.5, y: 0.5, z: 0.5}
+  "tama\xF1oInicial": {x: 0.7, y: 0.7, z: 0.7}
 --- !u!114 &5160515915488475923
 MonoBehaviour:
   m_ObjectHideFlags: 0
