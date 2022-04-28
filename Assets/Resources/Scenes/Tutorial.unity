@@ -7482,7 +7482,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1583043767}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.78, z: 0}
+  m_LocalPosition: {x: 0, y: 0.98, z: 0}
   m_LocalScale: {x: 1.4, y: 1.4, z: 1.4}
   m_Children:
   - {fileID: 5561069519416874035}
@@ -18178,6 +18178,7 @@ GameObject:
   - component: {fileID: 4184544630850378766}
   - component: {fileID: 990130830390449067}
   - component: {fileID: 3051560345438332769}
+  - component: {fileID: 3556064177563535029}
   m_Layer: 0
   m_Name: carro azul
   m_TagString: Untagged
@@ -18185,6 +18186,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!95 &3556064177563535029
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3556064177563535028}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 71eb80a01c71d4946a4d408fa5702891, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &3590598481543460237
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -29810,6 +29830,7 @@ GameObject:
   - component: {fileID: 5561069519416874035}
   - component: {fileID: 8827962190009424790}
   - component: {fileID: 6730576450741055324}
+  - component: {fileID: 5073080606958030474}
   m_Layer: 0
   m_Name: carro cafe
   m_TagString: Untagged
@@ -29817,6 +29838,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!95 &5073080606958030474
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5073080606958030473}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 71eb80a01c71d4946a4d408fa5702891, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!199 &5103804458933145463
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -45967,6 +46007,7 @@ GameObject:
   - component: {fileID: 8725869806825252114}
   - component: {fileID: 5672107597657746103}
   - component: {fileID: 7589595095834287741}
+  - component: {fileID: 8238021563401666473}
   m_Layer: 0
   m_Name: carro verde
   m_TagString: Untagged
@@ -45974,6 +46015,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!95 &8238021563401666473
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8238021563401666472}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 71eb80a01c71d4946a4d408fa5702891, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!4 &8308444893332487132
 Transform:
   m_ObjectHideFlags: 0
