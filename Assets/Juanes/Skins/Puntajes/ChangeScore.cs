@@ -44,6 +44,6 @@ public class ChangeScore : MonoBehaviour
     public void ConfirmButton()
     {
         PlayerPrefs.SetInt("PuntajeSelected", index);
-        SceneManager.LoadScene("Video");
+        SceneManager.LoadScene("VideoTEst");
     }
 }

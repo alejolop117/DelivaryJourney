@@ -7,6 +7,6 @@ public class TutoChangeScene : MonoBehaviour
 {
     public void Cargartuto()
     {
-        SceneManager.LoadScene("TutorialTesteo");
+        SceneManager.LoadScene("Tutorial");
     }
 }
