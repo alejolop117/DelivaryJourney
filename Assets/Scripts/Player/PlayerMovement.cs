@@ -19,7 +19,7 @@ public class PlayerMovement : MonoBehaviour
     Rigidbody rb;
     Vector3 direction = new Vector3(0,0,1);
     public bool right = false, left = false;
-    Animator anim;
+    Animator [] anim;
     public int roadCounter = 0; // Para contar las pistas que ha pasado.
     [SerializeField]int resetCounter = 100; // Cada X pistas se reinicia el roadCounter
     TransformManager limits;
@@ -30,7 +30,7 @@ public class PlayerMovement : MonoBehaviour
         limits = GetComponent<TransformManager>();
         pastCont = 3;
         rb = GetComponent<Rigidbody>();
-        anim = GetComponentInChildren<Animator>();
+        anim = GetComponentsInChildren<Animator>();
         speed = speed - (pesoPorCaja * 3);
         deslice = deslice - (deslice * 0.3f);
         angularMagnitude = angularMagnitude - (angularMagnitude * 0.27f);
@@ -108,11 +108,16 @@ public class PlayerMovement : MonoBehaviour
     }
 
     void Animations() {
-        if (right) anim.SetBool("IsTurnR", true);
-        else if (!right) anim.SetBool("IsTurnR", false);
-        
-        if(left) anim.SetBool("IsTurnL", true);
-        else if (!left) anim.SetBool("IsTurnL", false);
+
+        for(ushort i = 0; i < anim.Length; i++) {
+
+            if(right) anim[i].SetBool("IsTurnR", true);
+            else if (!right) anim[i].SetBool("IsTurnR", false);
+
+            if (left) anim[i].SetBool("IsTurnL", true);
+            else if (!left) anim[i].SetBool("IsTurnL", false);
+        }
+       
     }
     private void OnDestroy()
     {
