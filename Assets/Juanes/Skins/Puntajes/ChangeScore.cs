@@ -8,7 +8,10 @@ public class ChangeScore : MonoBehaviour
     private GameObject[] PuntajesList;
 
     private int index;
+    [SerializeField] bool testing;
+    [SerializeField] int partidas;
     // Start is called before the first frame update
+    
     void Start()
     {
         index = PlayerPrefs.GetInt("PuntajeSelected");
@@ -44,6 +47,16 @@ public class ChangeScore : MonoBehaviour
     public void ConfirmButton()
     {
         PlayerPrefs.SetInt("PuntajeSelected", index);
-        SceneManager.LoadScene("VideoTEst");
+        if (partidas == 1)
+        {
+            SceneManager.LoadScene("Main");
+        }
+        else if(partidas==0)
+        {
+            PlayerPrefs.SetInt("P", 1);
+            PlayerPrefs.SetInt("TutorialHabilitado", 0);
+            SceneManager.LoadScene("VideoTEst");
+        }
+        
     }
 }

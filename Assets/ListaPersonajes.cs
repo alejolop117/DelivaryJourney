@@ -7,6 +7,17 @@ public class ListaPersonajes : MonoBehaviour
 {
     private GameObject[] characterList;
     private int index;
+    int partidas;
+    [SerializeField] bool testing;
+    private void Awake()
+    {
+        if (testing == true)
+        {
+            PlayerPrefs.SetInt("P", 0);
+            PlayerPrefs.SetInt("TutorialHabilitado", 0);
+        }
+        partidas = PlayerPrefs.GetInt("P");
+    }
     void Start()
     {
         index = PlayerPrefs.GetInt("CharacterSelected");
@@ -48,7 +59,16 @@ public class ListaPersonajes : MonoBehaviour
 
     public void ConfirmButton()
     {
-        PlayerPrefs.SetInt("CharacterSelected", index);
-        SceneManager.LoadScene("VideoTEst");
+        PlayerPrefs.SetInt("PuntajeSelected", index);
+        if (partidas > 0)
+        {
+            SceneManager.LoadScene("Main");
+        }
+        else 
+        {
+           // PlayerPrefs.SetInt("P", 1);
+           // PlayerPrefs.SetInt("TutorialHabilitado", 1);
+            SceneManager.LoadScene("VideoTEst");
+        }
     }
 }
