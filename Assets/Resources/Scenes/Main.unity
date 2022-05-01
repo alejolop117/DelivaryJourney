@@ -864,8 +864,8 @@ MonoBehaviour:
   posicionRelativa: {x: 0, y: 0, z: 0}
   reiniciarPos: {fileID: 11400000, guid: 30a4ee7d88492e245ae266622413c679, type: 2}
   reiniciarContador: {fileID: 11400000, guid: 3c1fbcf84da97c144a816f35e368bb96, type: 2}
-  amplitud: 10
-  oscilationSpeed: 0.02
+  amplitud: 15
+  oscilationSpeed: 0.009
   speedPlayer: {fileID: 1583043768}
   cont: 0
 --- !u!1001 &56605706
@@ -13281,8 +13281,8 @@ MonoBehaviour:
   posicionRelativa: {x: 0, y: 0, z: 0}
   reiniciarPos: {fileID: 11400000, guid: 30a4ee7d88492e245ae266622413c679, type: 2}
   reiniciarContador: {fileID: 11400000, guid: 3c1fbcf84da97c144a816f35e368bb96, type: 2}
-  amplitud: 10
-  oscilationSpeed: 0.02
+  amplitud: 15
+  oscilationSpeed: 0.014
   speedPlayer: {fileID: 1583043768}
   cont: 0
 --- !u!1001 &1123539426
@@ -13497,6 +13497,10 @@ PrefabInstance:
       value: 124
       objectReference: {fileID: 0}
     - target: {fileID: 8870022371663406487, guid: db75ac952d0b1644caf00409128522ec, type: 3}
+      propertyPath: amplitud
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8870022371663406487, guid: db75ac952d0b1644caf00409128522ec, type: 3}
       propertyPath: speedPlayer
       value: 
       objectReference: {fileID: 1583043768}
@@ -13506,7 +13510,7 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: 30a4ee7d88492e245ae266622413c679, type: 2}
     - target: {fileID: 8870022371663406487, guid: db75ac952d0b1644caf00409128522ec, type: 3}
       propertyPath: oscilationSpeed
-      value: 0.02
+      value: 0.014
       objectReference: {fileID: 0}
     - target: {fileID: 8870022371663406487, guid: db75ac952d0b1644caf00409128522ec, type: 3}
       propertyPath: reiniciarContador
@@ -17654,7 +17658,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 318557106606203237, guid: cff71086a8e4f5048988eb85dc9e38fb, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.5
+      value: 1.4
       objectReference: {fileID: 0}
     - target: {fileID: 318557106606203237, guid: cff71086a8e4f5048988eb85dc9e38fb, type: 3}
       propertyPath: m_LocalPosition.z
@@ -17724,8 +17728,8 @@ MonoBehaviour:
   posicionRelativa: {x: 0, y: 0, z: 0}
   reiniciarPos: {fileID: 11400000, guid: 30a4ee7d88492e245ae266622413c679, type: 2}
   reiniciarContador: {fileID: 11400000, guid: 3c1fbcf84da97c144a816f35e368bb96, type: 2}
-  amplitud: 10
-  oscilationSpeed: 0.02
+  amplitud: 15
+  oscilationSpeed: 0.014
   speedPlayer: {fileID: 1583043768}
   cont: 0
 --- !u!1001 &1474869832
@@ -25817,7 +25821,7 @@ MonoBehaviour:
   posicionRelativa: {x: 0, y: 0, z: 0}
   reiniciarPos: {fileID: 11400000, guid: 30a4ee7d88492e245ae266622413c679, type: 2}
   reiniciarContador: {fileID: 11400000, guid: 3c1fbcf84da97c144a816f35e368bb96, type: 2}
-  amplitud: 10
+  amplitud: 15
   oscilationSpeed: 0.014
   speedPlayer: {fileID: 1583043768}
   cont: 0
