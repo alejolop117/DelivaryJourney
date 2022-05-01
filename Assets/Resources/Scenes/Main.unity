@@ -1073,46 +1073,26 @@ PrefabInstance:
       propertyPath: recordMessage
       value: 
       objectReference: {fileID: 699708603}
-    - target: {fileID: 6771947350433086498, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
-      propertyPath: cont
-      value: 
+    - target: {fileID: 129219783670674797, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
+      propertyPath: amountToPool
+      value: 16
       objectReference: {fileID: 0}
-    - target: {fileID: 6771947350433086498, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
-      propertyPath: cambiarVel
-      value: 
-      objectReference: {fileID: 11400000, guid: 206d0d3673d7e0f4ba3d462a5b727400, type: 2}
+    - target: {fileID: 624886415683242276, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
+      propertyPath: amountToPool
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 4953562740114792365, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
+      propertyPath: amountToPool
+      value: 16
+      objectReference: {fileID: 0}
     - target: {fileID: 6771947350433086499, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
       propertyPath: m_Name
       value: ManagerCajas
       objectReference: {fileID: 0}
-    - target: {fileID: 6771947350433086499, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 6771947350433086505, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
-      propertyPath: pruebas
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6771947350433086505, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
-      propertyPath: gameOver
-      value: 
-      objectReference: {fileID: 11400000, guid: d0c05096ef1f3814bb51069f12b10a2e, type: 2}
     - target: {fileID: 6771947350433086505, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
       propertyPath: conteoCaja
       value: 
       objectReference: {fileID: 2645707340556011724}
-    - target: {fileID: 6771947350433086505, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
-      propertyPath: tiempoSkin
-      value: 1.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6771947350433086505, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
-      propertyPath: finTutorial
-      value: 
-      objectReference: {fileID: 11400000, guid: 9495b76b366eda64f9311f5e5c1b77aa, type: 2}
-    - target: {fileID: 6771947350433086505, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
-      propertyPath: objetivoSkin
-      value: 100
-      objectReference: {fileID: 0}
     - target: {fileID: 6771947350433086508, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
       propertyPath: m_RootOrder
       value: 26
@@ -1162,49 +1142,13 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 773947438}
     - target: {fileID: 6771947350433086510, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
-      propertyPath: pruebas
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6771947350433086510, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
-      propertyPath: gameOver
-      value: 
-      objectReference: {fileID: 11400000, guid: d0c05096ef1f3814bb51069f12b10a2e, type: 2}
-    - target: {fileID: 6771947350433086510, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
       propertyPath: conteoCaja
       value: 
       objectReference: {fileID: 2645707342145853312}
-    - target: {fileID: 6771947350433086510, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
-      propertyPath: tiempoSkin
-      value: 1.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6771947350433086510, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
-      propertyPath: finTutorial
-      value: 
-      objectReference: {fileID: 11400000, guid: 9495b76b366eda64f9311f5e5c1b77aa, type: 2}
-    - target: {fileID: 6771947350433086510, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
-      propertyPath: objetivoSkin
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 6771947350433086511, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
-      propertyPath: pruebas
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6771947350433086511, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
-      propertyPath: gameOver
-      value: 
-      objectReference: {fileID: 11400000, guid: d0c05096ef1f3814bb51069f12b10a2e, type: 2}
     - target: {fileID: 6771947350433086511, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
       propertyPath: conteoCaja
       value: 
       objectReference: {fileID: 2580680345822959591}
-    - target: {fileID: 6771947350433086511, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
-      propertyPath: tiempoSkin
-      value: 1.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6771947350433086511, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
-      propertyPath: finTutorial
-      value: 
-      objectReference: {fileID: 11400000, guid: 9495b76b366eda64f9311f5e5c1b77aa, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
 --- !u!1 &92039238 stripped
@@ -8863,6 +8807,18 @@ PrefabInstance:
     - target: {fileID: 3163227170172288763, guid: df3d435eebcef4446b9a89dfe93d5799, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961099997271891054, guid: df3d435eebcef4446b9a89dfe93d5799, type: 3}
+      propertyPath: m_Drag
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961099997271891054, guid: df3d435eebcef4446b9a89dfe93d5799, type: 3}
+      propertyPath: m_Mass
+      value: 0.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961099997271891054, guid: df3d435eebcef4446b9a89dfe93d5799, type: 3}
+      propertyPath: m_AngularDrag
+      value: 0.05
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df3d435eebcef4446b9a89dfe93d5799, type: 3}
@@ -22225,6 +22181,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2327682518882891732, guid: 5f83c91baf6d30f4aa0ed457b77df13f, type: 3}
+      propertyPath: m_Drag
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2327682518882891732, guid: 5f83c91baf6d30f4aa0ed457b77df13f, type: 3}
+      propertyPath: m_Mass
+      value: 0.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 2327682518882891732, guid: 5f83c91baf6d30f4aa0ed457b77df13f, type: 3}
+      propertyPath: m_AngularDrag
+      value: 0.05
+      objectReference: {fileID: 0}
     - target: {fileID: 4463393193232386754, guid: 5f83c91baf6d30f4aa0ed457b77df13f, type: 3}
       propertyPath: m_Name
       value: Caja Cafe
@@ -24170,6 +24138,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 291761257}
     m_Modifications:
+    - target: {fileID: 5340083117642888231, guid: 9fae1b289b0208f4ca45a4333b6c6f37, type: 3}
+      propertyPath: m_Drag
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5340083117642888231, guid: 9fae1b289b0208f4ca45a4333b6c6f37, type: 3}
+      propertyPath: m_Mass
+      value: 0.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 5340083117642888231, guid: 9fae1b289b0208f4ca45a4333b6c6f37, type: 3}
+      propertyPath: m_AngularDrag
+      value: 0.05
+      objectReference: {fileID: 0}
     - target: {fileID: 6799056685007792611, guid: 9fae1b289b0208f4ca45a4333b6c6f37, type: 3}
       propertyPath: m_RootOrder
       value: 5
