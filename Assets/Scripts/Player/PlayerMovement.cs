@@ -33,7 +33,7 @@ public class PlayerMovement : MonoBehaviour
         anim = GetComponentsInChildren<Animator>();
         speed = speed - (pesoPorCaja * 3);
         deslice = deslice - (deslice * 0.3f);
-        angularMagnitude = angularMagnitude - (angularMagnitude * 0.27f);
+        angularMagnitude = angularMagnitude - (angularMagnitude * 0.15f);
 
         cambiarVel.GEvent += ActualizarVel;
     }
@@ -65,7 +65,7 @@ public class PlayerMovement : MonoBehaviour
         
             speed +=((pastCont- contCajasM.contador) * pesoPorCaja);
             deslice += (deslice * 0.1f* (pastCont - contCajasM.contador));
-            angularMagnitude +=(angularMagnitude * 0.09f* (pastCont - contCajasM.contador));
+            angularMagnitude +=(angularMagnitude * 0.05f* (pastCont - contCajasM.contador));
             pastCont =  contCajasM.contador;
     }
 
@@ -154,6 +154,7 @@ public class PlayerMovement : MonoBehaviour
     }
 
     void ChangeSpeed() {
+        
         if (roadCounter % interval == 0) {
             speed += changePerSecond * Time.deltaTime;
             if (counter < 1) {
@@ -162,6 +163,42 @@ public class PlayerMovement : MonoBehaviour
             }
         }
         else counter = 0;
+        if (speed >= 70 && speed<=110)
+        {
+            angularMagnitude = 16;
+        }
+        if(speed >= 111 && speed <= 140)
+        {
+            angularMagnitude = 16 + (angularMagnitude * 0.15f); ;
+        }
+        if (speed >= 141 && speed <= 170)
+        {
+            angularMagnitude = 20 + (angularMagnitude * 0.15f); ;
+        }
+        if (speed >= 171 && speed <= 200)
+        {
+            angularMagnitude = 25 ;
+        }
+        if (speed >= 201 && speed <= 230)
+        {
+            angularMagnitude = 27;
+        }
+        if (speed >= 231 && speed <= 270)
+        {
+            angularMagnitude = 30;
+        }
+        if (speed >= 271 && speed <= 300)
+        {
+            angularMagnitude = 33;
+        }
+        if (speed >= 301 && speed <= 330)
+        {
+            angularMagnitude = 36;
+        }
+        if (speed >= 331 && speed <= 370)
+        {
+            angularMagnitude = 40;
+        }
     }
     void AcelerateSound() {
         acelerate.FireEvent();

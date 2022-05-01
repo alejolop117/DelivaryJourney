@@ -142,6 +142,9 @@ MonoBehaviour:
   spawnC: {fileID: 11400000, guid: 1acad79eead8fe243b601bc9c7ac5405, type: 2}
   spawnV: {fileID: 11400000, guid: 73288101003a1684ea460e7a8ec42bb5, type: 2}
   spawnA: {fileID: 11400000, guid: 36b717675b995a94f8842f1c23fbf399, type: 2}
+  reiniciarDisparoC: {fileID: 11400000, guid: 00cf5a0f9a9d8a44db92d912b9aec868, type: 2}
+  reiniciarDisparoA: {fileID: 11400000, guid: 91f6dc464f4cbb04b8878e90454d91bf, type: 2}
+  reiniciarDisparoV: {fileID: 11400000, guid: 0c2def2a356c88d48b31596fedc557c2, type: 2}
 --- !u!114 &6771947350433086511
 MonoBehaviour:
   m_ObjectHideFlags: 0

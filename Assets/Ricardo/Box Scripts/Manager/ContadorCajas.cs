@@ -14,7 +14,10 @@ public class ContadorCajas : MonoBehaviour
     [SerializeField] Eventos recogerCV, recogerCA, recogerCC;
     [SerializeField] Eventos reiniciarV, reiniciarA, reiniciarC;
     [SerializeField] Eventos spawnC, spawnV, spawnA;
-    
+
+   // [SerializeField] Eventos reiniciarDisparoC, reiniciarDisparoA, reiniciarDisparoV;
+
+
     void Start()
     {
         cC = 1;
@@ -71,6 +74,10 @@ public class ContadorCajas : MonoBehaviour
         {
             cC = 0;
         }
+       /* if (cC == 1)
+        {
+            reiniciarDisparoC.FireEvent();
+        }*/
     }
     void PerderAzul()
     {
@@ -79,6 +86,10 @@ public class ContadorCajas : MonoBehaviour
         {
             cA = 0;
         }
+       /* if (cA == 1)
+        {
+            reiniciarDisparoA.FireEvent();
+        }*/
     }
     void PerderVerde()
     {
@@ -87,6 +98,10 @@ public class ContadorCajas : MonoBehaviour
         {
             cV = 0;
         }
+        /*if (cV == 1)
+        {
+            reiniciarDisparoV.FireEvent();
+        }*/
     }
     void ReinicioCajas()
     {
