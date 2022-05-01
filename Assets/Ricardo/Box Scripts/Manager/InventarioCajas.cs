@@ -4,7 +4,7 @@ using UnityEngine;
 using TMPro;
 public class InventarioCajas : MonoBehaviour
 {
-    [SerializeField] private Eventos recogerCaja, reinicioCaja,perderColor,ganarSkin,finTutorial,gameOver;
+    [SerializeField] private Eventos recogerCaja, reinicioCaja,perderColor,ganarSkin,finTutorial,gameOver,antitrampa;
     //[SerializeField] Eventos sumarC, sumarA, sumarV;
     [SerializeField] private string nombreCaja;
     [SerializeField] TextMeshProUGUI conteoCaja;
@@ -26,7 +26,7 @@ public class InventarioCajas : MonoBehaviour
         reinicioCaja.GEvent += Reinicio;
         perderColor.GEvent += PerderCajaColor;
         finTutorial.GEvent += ReinicarContador;
-
+        antitrampa.GEvent += ReinicarContador;
         gameOver.GEvent += GameOver;
     }
     void Start()
@@ -125,6 +125,7 @@ public class InventarioCajas : MonoBehaviour
         reinicioCaja.GEvent -= Reinicio;
         perderColor.GEvent -= PerderCajaColor;
         finTutorial.GEvent -= ReinicarContador;
+        antitrampa.GEvent -= ReinicarContador;
 
         gameOver.GEvent -= GameOver;
     }
