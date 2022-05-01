@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Crecer : MonoBehaviour , IReiniciable //hereda de una interfaz 
 {
-    [SerializeField] private Eventos eventoRecoger, eventoLleno, eventoGanarCaja,eventoReiniciar, entregaCaja, perderCaja,perderCajaG;
+    [SerializeField] private Eventos eventoRecoger, eventoLleno, eventoGanarCaja,eventoReiniciar, entregaCaja, perderCaja,perderCajaG,reiniciarDisparo;
     [SerializeField] private float tamañoMaximo; //es el tamaño maximo de la caja
     [SerializeField] private float ritmoDeCrecimiento; //lo que crece por cada caja recolectada
     [SerializeField] private bool save; //determina si ha pasado por un punto de reinicio o no
@@ -34,6 +34,7 @@ public class Crecer : MonoBehaviour , IReiniciable //hereda de una interfaz
         //tamañoInicial = new Vector3(tamaño.localScale.x,tamaño.localScale.y,tamaño.localScale.z); //se tiene una referencia del tamaño inicial, util para cuando se reinicia el objeto
         eventoRecoger.GEvent += CrecerCaja;  //se subscriben dichas funciones a dichos eventos
         eventoReiniciar.GEvent += Desaparecer;
+        //reiniciarDisparo.GEvent += ReiniciarDisparo;   reinicia el booleano de disparoevento
         reiniciarTamaño();
         //perderCajaG.GEvent += PerderCaja;
     }
@@ -81,13 +82,7 @@ public class Crecer : MonoBehaviour , IReiniciable //hereda de una interfaz
         tamañoActual = 0;
        
     }
-   /* void PerderCaja()
-    {
-        tamaño.localScale = tamañoInicial;
-        tamañoActual = 0;
-
-        this.gameObject.SetActive(false);
-    }*/
+   
     //verifica que ha pasado el objeto por el punto de inicio y otra vez pone en "0" las veces que ha disparado un evento
     //ademas devuelve el tamaño de la caja a su estado original
     public void Reiniciar()
@@ -99,6 +94,10 @@ public class Crecer : MonoBehaviour , IReiniciable //hereda de una interfaz
         eventoReiniciar.FireEvent();
         entregaCaja.FireEvent();
     }
+   /* void ReiniciarDisparo()
+    {
+        disparoEvento = false;
+    }*/
     private void OnDestroy()
     {
         eventoRecoger.GEvent -= CrecerCaja;  //se dessubscriben dichas funciones a dichos eventos
@@ -108,7 +107,7 @@ public class Crecer : MonoBehaviour , IReiniciable //hereda de una interfaz
     private void OnEnable()
     {
         reiniciarTamaño();
-
+        disparoEvento = false;
     }
     private void OnDisable()
     {

@@ -136,6 +136,7 @@ MonoBehaviour:
   entregaCaja: {fileID: 11400000, guid: 88b76626ff6a1364ba02425587f4cd90, type: 2}
   perderCaja: {fileID: 11400000, guid: 8be2768ff72df6a48b655cf7451f63ab, type: 2}
   perderCajaG: {fileID: 11400000, guid: 8b4dacae1fa2fd1468903fbf7dfb11db, type: 2}
+  reiniciarDisparo: {fileID: 11400000, guid: 0c2def2a356c88d48b31596fedc557c2, type: 2}
   "tama\xF1oMaximo": 0.125
   ritmoDeCrecimiento: 0.025
   save: 0
@@ -158,6 +159,7 @@ MonoBehaviour:
   eventoPerderColor: {fileID: 11400000, guid: 8be2768ff72df6a48b655cf7451f63ab, type: 2}
   choque: {fileID: 6956618473228030288}
   duracionEfecto: 0.4
+  eventoDisparado: 0
 --- !u!1001 &4715543749979625134
 PrefabInstance:
   m_ObjectHideFlags: 0

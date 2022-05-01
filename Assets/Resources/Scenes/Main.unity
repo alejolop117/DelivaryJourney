@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.6645444, g: 0.88344455, b: 0.88508445, a: 1}
+  m_IndirectSpecularColor: {r: 0.6655411, g: 0.882509, b: 0.8856727, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1073,46 +1073,26 @@ PrefabInstance:
       propertyPath: recordMessage
       value: 
       objectReference: {fileID: 699708603}
-    - target: {fileID: 6771947350433086498, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
-      propertyPath: cont
-      value: 
+    - target: {fileID: 129219783670674797, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
+      propertyPath: amountToPool
+      value: 16
       objectReference: {fileID: 0}
-    - target: {fileID: 6771947350433086498, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
-      propertyPath: cambiarVel
-      value: 
-      objectReference: {fileID: 11400000, guid: 206d0d3673d7e0f4ba3d462a5b727400, type: 2}
+    - target: {fileID: 624886415683242276, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
+      propertyPath: amountToPool
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 4953562740114792365, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
+      propertyPath: amountToPool
+      value: 16
+      objectReference: {fileID: 0}
     - target: {fileID: 6771947350433086499, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
       propertyPath: m_Name
       value: ManagerCajas
       objectReference: {fileID: 0}
-    - target: {fileID: 6771947350433086499, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 6771947350433086505, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
-      propertyPath: pruebas
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6771947350433086505, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
-      propertyPath: gameOver
-      value: 
-      objectReference: {fileID: 11400000, guid: d0c05096ef1f3814bb51069f12b10a2e, type: 2}
     - target: {fileID: 6771947350433086505, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
       propertyPath: conteoCaja
       value: 
       objectReference: {fileID: 2645707340556011724}
-    - target: {fileID: 6771947350433086505, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
-      propertyPath: tiempoSkin
-      value: 1.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6771947350433086505, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
-      propertyPath: finTutorial
-      value: 
-      objectReference: {fileID: 11400000, guid: 9495b76b366eda64f9311f5e5c1b77aa, type: 2}
-    - target: {fileID: 6771947350433086505, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
-      propertyPath: objetivoSkin
-      value: 100
-      objectReference: {fileID: 0}
     - target: {fileID: 6771947350433086508, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
       propertyPath: m_RootOrder
       value: 26
@@ -1162,49 +1142,13 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 773947438}
     - target: {fileID: 6771947350433086510, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
-      propertyPath: pruebas
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6771947350433086510, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
-      propertyPath: gameOver
-      value: 
-      objectReference: {fileID: 11400000, guid: d0c05096ef1f3814bb51069f12b10a2e, type: 2}
-    - target: {fileID: 6771947350433086510, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
       propertyPath: conteoCaja
       value: 
       objectReference: {fileID: 2645707342145853312}
-    - target: {fileID: 6771947350433086510, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
-      propertyPath: tiempoSkin
-      value: 1.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6771947350433086510, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
-      propertyPath: finTutorial
-      value: 
-      objectReference: {fileID: 11400000, guid: 9495b76b366eda64f9311f5e5c1b77aa, type: 2}
-    - target: {fileID: 6771947350433086510, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
-      propertyPath: objetivoSkin
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 6771947350433086511, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
-      propertyPath: pruebas
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6771947350433086511, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
-      propertyPath: gameOver
-      value: 
-      objectReference: {fileID: 11400000, guid: d0c05096ef1f3814bb51069f12b10a2e, type: 2}
     - target: {fileID: 6771947350433086511, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
       propertyPath: conteoCaja
       value: 
       objectReference: {fileID: 2580680345822959591}
-    - target: {fileID: 6771947350433086511, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
-      propertyPath: tiempoSkin
-      value: 1.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6771947350433086511, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
-      propertyPath: finTutorial
-      value: 
-      objectReference: {fileID: 11400000, guid: 9495b76b366eda64f9311f5e5c1b77aa, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
 --- !u!1 &92039238 stripped
@@ -4080,8 +4024,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 442509884}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -284.66, y: 223.43, z: 478.88}
-  m_LocalScale: {x: 0.1, y: 2.67, z: 5.26}
+  m_LocalPosition: {x: -284.66, y: 224.03, z: 478.88}
+  m_LocalScale: {x: 0.1, y: 0.61, z: 5.26}
   m_Children: []
   m_Father: {fileID: 291761257}
   m_RootOrder: 24
@@ -6233,7 +6177,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 110.6, y: 55.5}
+  m_AnchoredPosition: {x: 110.6, y: 77}
   m_SizeDelta: {x: 320.2803, y: 56.0445}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &629412884
@@ -8863,6 +8807,18 @@ PrefabInstance:
     - target: {fileID: 3163227170172288763, guid: df3d435eebcef4446b9a89dfe93d5799, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961099997271891054, guid: df3d435eebcef4446b9a89dfe93d5799, type: 3}
+      propertyPath: m_Drag
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961099997271891054, guid: df3d435eebcef4446b9a89dfe93d5799, type: 3}
+      propertyPath: m_Mass
+      value: 0.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961099997271891054, guid: df3d435eebcef4446b9a89dfe93d5799, type: 3}
+      propertyPath: m_AngularDrag
+      value: 0.05
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df3d435eebcef4446b9a89dfe93d5799, type: 3}
@@ -22225,6 +22181,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2327682518882891732, guid: 5f83c91baf6d30f4aa0ed457b77df13f, type: 3}
+      propertyPath: m_Drag
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2327682518882891732, guid: 5f83c91baf6d30f4aa0ed457b77df13f, type: 3}
+      propertyPath: m_Mass
+      value: 0.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 2327682518882891732, guid: 5f83c91baf6d30f4aa0ed457b77df13f, type: 3}
+      propertyPath: m_AngularDrag
+      value: 0.05
+      objectReference: {fileID: 0}
     - target: {fileID: 4463393193232386754, guid: 5f83c91baf6d30f4aa0ed457b77df13f, type: 3}
       propertyPath: m_Name
       value: Caja Cafe
@@ -22257,8 +22225,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1724677574}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -255.84, y: 223.43, z: 478.88}
-  m_LocalScale: {x: 0.03, y: 2.67, z: 5.26}
+  m_LocalPosition: {x: -255.84, y: 223.84, z: 478.88}
+  m_LocalScale: {x: 0.03, y: 0.48, z: 5.26}
   m_Children: []
   m_Father: {fileID: 291761257}
   m_RootOrder: 23
@@ -24170,6 +24138,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 291761257}
     m_Modifications:
+    - target: {fileID: 5340083117642888231, guid: 9fae1b289b0208f4ca45a4333b6c6f37, type: 3}
+      propertyPath: m_Drag
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5340083117642888231, guid: 9fae1b289b0208f4ca45a4333b6c6f37, type: 3}
+      propertyPath: m_Mass
+      value: 0.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 5340083117642888231, guid: 9fae1b289b0208f4ca45a4333b6c6f37, type: 3}
+      propertyPath: m_AngularDrag
+      value: 0.05
+      objectReference: {fileID: 0}
     - target: {fileID: 6799056685007792611, guid: 9fae1b289b0208f4ca45a4333b6c6f37, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -27819,7 +27799,7 @@ GameObject:
   - component: {fileID: 1635183468682461043}
   m_Layer: 0
   m_Name: carro cafe
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28241,7 +28221,7 @@ GameObject:
   - component: {fileID: 2487448982072118868}
   m_Layer: 0
   m_Name: carro verde
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42071,7 +42051,7 @@ GameObject:
   - component: {fileID: 7030058389793814352}
   m_Layer: 0
   m_Name: carro azul
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47787,7 +47767,7 @@ GameObject:
   - component: {fileID: 262346063}
   m_Layer: 0
   m_Name: Model
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

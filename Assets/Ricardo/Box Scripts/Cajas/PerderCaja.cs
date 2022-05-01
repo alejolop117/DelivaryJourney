@@ -7,10 +7,11 @@ public class PerderCaja : MonoBehaviour
     [SerializeField] private Eventos eventoPerderCaja,eventoPerderColor;
     //[SerializeField] Crecer tamaños;
     [SerializeField] private ParticleSystem choque;
-    [SerializeField] private float duracionEfecto; 
-    private bool eventoDisparado = false;
+    [SerializeField] private float duracionEfecto;
+    [SerializeField] bool eventoDisparado = false;
     private void OnCollisionEnter(Collision collision)
     {
+        
         if (collision.gameObject.tag != "Player" && eventoDisparado == false && collision.gameObject.tag != "Cajas F" && collision.gameObject.tag != "Cone" && collision.gameObject.tag != "Barrier")
         {
 
@@ -24,11 +25,15 @@ public class PerderCaja : MonoBehaviour
         eventoPerderCaja.FireEvent();
 
         eventoDisparado = true;
-        /* tamaños.tamaño.localScale = tamaños.tamañoInicial;
-        tamaños.tamañoActual = 0;*/
+        
 
         //Debug.Log("se callo la caja");
         yield return new WaitForSeconds(duracionEfecto);
         this.gameObject.SetActive(false);
+       // Debug.Log("se desactivo");
+    }
+    private void OnEnable()
+    {
+        eventoDisparado = false;
     }
 }

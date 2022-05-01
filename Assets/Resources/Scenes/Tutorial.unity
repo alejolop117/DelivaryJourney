@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.6645444, g: 0.88344455, b: 0.88508445, a: 1}
+  m_IndirectSpecularColor: {r: 0.6655411, g: 0.882509, b: 0.8856727, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -5998,6 +5998,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4813438305736534979}
     m_Modifications:
+    - target: {fileID: 1756724830, guid: e65425c503cd456429b87f919b80cf0c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4199188811289889502, guid: e65425c503cd456429b87f919b80cf0c, type: 3}
+      propertyPath: m_text
+      value: Procura no perder todas tus cajas o  perderas automaticamente
+      objectReference: {fileID: 0}
     - target: {fileID: 7831438853886738661, guid: e65425c503cd456429b87f919b80cf0c, type: 3}
       propertyPath: posicionTextoFinal.y
       value: -140
@@ -6089,6 +6097,26 @@ PrefabInstance:
     - target: {fileID: 7831438853999844665, guid: e65425c503cd456429b87f919b80cf0c, type: 3}
       propertyPath: m_Name
       value: Tutorial
+      objectReference: {fileID: 0}
+    - target: {fileID: 7831438854265291333, guid: e65425c503cd456429b87f919b80cf0c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7831438855265092127, guid: e65425c503cd456429b87f919b80cf0c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7831438855276832544, guid: e65425c503cd456429b87f919b80cf0c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7831438855559444800, guid: e65425c503cd456429b87f919b80cf0c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793794942616384073, guid: e65425c503cd456429b87f919b80cf0c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e65425c503cd456429b87f919b80cf0c, type: 3}
