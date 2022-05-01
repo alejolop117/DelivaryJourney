@@ -26,7 +26,20 @@ public class OscilarCarro : MonoBehaviour
     {
         posicionNueva.z = 0;
         posicionRelativa.z += -speedPlayer.speed  * Time.deltaTime;
-        posicionNueva.x = Mathf.Sin(posicionRelativa.z * oscilationSpeed) * amplitud;
+        posicionRelativa.x = Mathf.Sin(posicionRelativa.z * oscilationSpeed) * amplitud;
+        if(posicionRelativa.x > 10)
+        {
+            posicionNueva.x = 10;
+        }
+        else if(posicionRelativa.x < -10)
+        {
+            posicionNueva.x = -10;
+        }
+        else
+        {
+            posicionNueva.x = posicionRelativa.x;
+        }
+        
 
         transform.localPosition = posicionNueva;
         rb.MovePosition(posicionNueva);
