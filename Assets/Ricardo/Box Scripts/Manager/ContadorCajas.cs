@@ -15,7 +15,7 @@ public class ContadorCajas : MonoBehaviour
     [SerializeField] Eventos reiniciarV, reiniciarA, reiniciarC;
     [SerializeField] Eventos spawnC, spawnV, spawnA;
 
-   // [SerializeField] Eventos reiniciarDisparoC, reiniciarDisparoA, reiniciarDisparoV;
+   [SerializeField] Eventos reiniciarDisparoC, reiniciarDisparoA, reiniciarDisparoV;
 
 
     void Start()
@@ -58,46 +58,55 @@ public class ContadorCajas : MonoBehaviour
     void SumarCafe()
     {
         cC++;
+        //PlayerPrefs.SetInt(("Anterior Azul"), cC);
     }
     void SumarAzul()
     {
         cA++;
+        //PlayerPrefs.SetInt(("Anterior Azul"), cA);
     }
     void SumarVerde()
     {
         cV++;
+        //PlayerPrefs.SetInt(("Anterior Azul"), cV);
     }
     void PerderCafe()
     {
         cC--;
+        
         if (cC < 0)
         {
             cC = 0;
         }
-       /* if (cC == 1)
-        {
-            reiniciarDisparoC.FireEvent();
-        }*/
+       // PlayerPrefs.SetInt(("Anterior Azul"), cC);
+        /* if (cC == 1)
+          {
+              reiniciarDisparoC.FireEvent();
+          }*/
     }
     void PerderAzul()
     {
         cA--;
+        
         if (cA < 0)
         {
             cA = 0;
         }
-       /* if (cA == 1)
-        {
-            reiniciarDisparoA.FireEvent();
-        }*/
+       // PlayerPrefs.SetInt(("Anterior Azul"), cA);
+        /*if (cA == 1)
+         {
+             reiniciarDisparoA.FireEvent();
+         }*/
     }
     void PerderVerde()
     {
         cV--;
+        
         if (cV < 0)
         {
             cV = 0;
         }
+        //PlayerPrefs.SetInt(("Anterior Azul"), cV);
         /*if (cV == 1)
         {
             reiniciarDisparoV.FireEvent();

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PerderCaja : MonoBehaviour
 {
-    [SerializeField] private Eventos eventoPerderCaja,eventoPerderColor;
+    [SerializeField] private Eventos eventoPerderCaja,eventoPerderColor,reiniciarDisparo;
     //[SerializeField] Crecer tamaños;
     [SerializeField] private ParticleSystem choque;
     [SerializeField] private float duracionEfecto;
@@ -14,7 +14,7 @@ public class PerderCaja : MonoBehaviour
         
         if (collision.gameObject.tag != "Player" && eventoDisparado == false && collision.gameObject.tag != "Cajas F" && collision.gameObject.tag != "Cone" && collision.gameObject.tag != "Barrier")
         {
-
+            reiniciarDisparo.FireEvent();
             eventoPerderColor.FireEvent();
             StartCoroutine("Efecto");
         }
