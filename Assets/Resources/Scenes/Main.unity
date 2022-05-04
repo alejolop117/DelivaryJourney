@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.6645444, g: 0.88344455, b: 0.88508445, a: 1}
+  m_IndirectSpecularColor: {r: 0.6655409, g: 0.8825091, b: 0.8856726, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -5654,10 +5654,6 @@ PrefabInstance:
     - target: {fileID: 5288240153305018170, guid: 4f30191483b391a4e9b0da81c228b71e, type: 3}
       propertyPath: m_RootOrder
       value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 5288240153305018170, guid: 4f30191483b391a4e9b0da81c228b71e, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 11.636364
       objectReference: {fileID: 0}
     - target: {fileID: 5288240153305018170, guid: 4f30191483b391a4e9b0da81c228b71e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13004,10 +13000,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Car_2
       objectReference: {fileID: 0}
-    - target: {fileID: 5293716282119961482, guid: 4f30191483b391a4e9b0da81c228b71e, type: 3}
-      propertyPath: m_TagString
-      value: Untagged
-      objectReference: {fileID: 0}
     - target: {fileID: 7454693329844249888, guid: 4f30191483b391a4e9b0da81c228b71e, type: 3}
       propertyPath: crashSound
       value: 
@@ -17364,7 +17356,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7777778, y: 1}
+    m_SensorSize: {x: 1.7770115, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -18640,27 +18632,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
---- !u!1 &1507394478 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5293716282119961482, guid: 4f30191483b391a4e9b0da81c228b71e, type: 3}
-  m_PrefabInstance: {fileID: 603087632}
-  m_PrefabAsset: {fileID: 0}
---- !u!54 &1507394484
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1507394478}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 126
-  m_CollisionDetection: 0
 --- !u!1001 &1517133083
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20348,7 +20319,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7777778, y: 1}
+    m_SensorSize: {x: 1.7770115, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -22743,7 +22714,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7777778, y: 1}
+    m_SensorSize: {x: 1.7770115, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -41132,7 +41103,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7777778, y: 1}
+    m_SensorSize: {x: 1.7770115, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
