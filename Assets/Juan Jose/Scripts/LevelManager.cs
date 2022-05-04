@@ -20,6 +20,7 @@ public class LevelManager : MonoBehaviour
     
 
 
+
     private void Start()
     {
         startSection = secttion[Random.Range(3,7)];
@@ -44,7 +45,72 @@ public class LevelManager : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        //secNum = Random.Range(2, totalSections);
+        if (other.gameObject.CompareTag("Piso") && tunnelCounter != tunnelObjective && checkpointCounter != checkpointObjective && difficultyCounter == 0)
+        {
+            GameObject temp;
+            tunnelCounter++;
+            checkpointCounter++;
+
+            do
+            {
+                temp = secttion[Random.Range(3, 7)];
+            }
+            while (temp.activeSelf == true);
+            temp.SetActive(true);
+
+            temp.transform.position = spawn.position;
+            temp.transform.rotation = spawn.rotation;
+        }
+        else if (other.gameObject.CompareTag("Piso") && tunnelCounter != tunnelObjective && checkpointCounter != checkpointObjective && difficultyCounter == 1)
+        {
+            GameObject temp;
+            tunnelCounter++;
+            checkpointCounter++;
+
+            do
+            {
+                temp = secttion[Random.Range(3, 11)];
+            }
+            while (temp.activeSelf == true);
+            temp.SetActive(true);
+
+            temp.transform.position = spawn.position;
+            temp.transform.rotation = spawn.rotation;
+        }
+        else if (other.gameObject.CompareTag("Piso") && tunnelCounter != tunnelObjective && checkpointCounter != checkpointObjective && difficultyCounter == 2)
+        {
+            GameObject temp;
+            tunnelCounter++;
+            checkpointCounter++;
+
+            do
+            {
+                temp = secttion[12];
+            }
+            while (temp.activeSelf == true);
+            temp.SetActive(true);
+
+            temp.transform.position = spawn.position;
+            temp.transform.rotation = spawn.rotation;
+            difficultyCounter++;
+        }
+        else if (other.gameObject.CompareTag("Piso") && tunnelCounter != tunnelObjective && checkpointCounter != checkpointObjective && difficultyCounter == 3)
+        {        
+            GameObject temp;
+            tunnelCounter++;
+            checkpointCounter++;
+
+            do
+            {
+                temp = secttion[Random.Range(3,18)];
+            }
+            while (temp.activeSelf == true);
+            temp.SetActive(true);
+
+            temp.transform.position = spawn.position;
+            temp.transform.rotation = spawn.rotation;
+        }
+        /*
         if (other.gameObject.CompareTag("Piso") && tunnelCounter != tunnelObjective && checkpointCounter != checkpointObjective)
         {
             tunnelCounter++;
@@ -93,28 +159,29 @@ public class LevelManager : MonoBehaviour
             }
             else if (difficultyCounter >= 3)
             {
+                difficultyCounter = 3;
                 do
                 {
                     temp = secttion[Random.Range(3,18)];
                 }
-                while (temp.activeSelf == true);
+                while (temp.activeSelf == true );
 
                 temp.SetActive(true);
 
                 temp.transform.position = spawn.position;
                 temp.transform.rotation = spawn.rotation;
-                difficultyCounter++;
             }
 
 
 
-            // Instantiate(secttion[Random.Range(2, totalSections)], new Vector3(0, -2.4f, spawnPos), Quaternion.identity);      
-        }
+            // Instantiate(secttion[Random.Range(2, totalSections)], new Vector3(0, -2.4f, spawnPos), Quaternion.identity);    
+        */
+
         else if (other.gameObject.CompareTag("Piso") && tunnelCounter == tunnelObjective)
-        { 
+        {
             tunnelCounter++;
             GameObject temp;
-            temp = secttion[Random.Range(0,4)];
+            temp = secttion[Random.Range(0, 4)];
             temp.SetActive(true);
             temp.transform.position = spawn.position;
             temp.transform.rotation = spawn.rotation;
@@ -122,16 +189,20 @@ public class LevelManager : MonoBehaviour
         }
         else if (other.gameObject.CompareTag("Piso") && checkpointCounter == checkpointObjective)
         {
-            difficultyCounter++;
             GameObject temp;
-            temp = secttion[Random.Range(15,19)];
+            temp = secttion[Random.Range(18, 22)];
             temp.SetActive(true);
             temp.transform.position = spawn.position;
             temp.transform.rotation = spawn.rotation;
             //Instantiate(secttion[Random.Range(11,15)], new Vector3(0, -2.4f, spawnPos), Quaternion.identity);
-            checkpointCounter = 0;           
+            checkpointCounter = 0;
+            if(difficultyCounter < 3)
+            {
+                difficultyCounter++;
+            }
+            
         }
-
     }
-
 }
+
+
