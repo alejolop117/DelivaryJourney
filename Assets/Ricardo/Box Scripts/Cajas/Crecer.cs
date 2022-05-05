@@ -122,7 +122,7 @@ public class Crecer : MonoBehaviour , IReiniciable //hereda de una interfaz
         if (dif == 1)
         {
             valorInicialCont--;
-            disparoEvento = false;
+            //disparoEvento = false;
             PlayerPrefs.SetInt(("Anterior " + nombre), contadorP);
         }
         

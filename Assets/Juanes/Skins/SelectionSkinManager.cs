@@ -12,12 +12,14 @@ public class SelectionSkinManager : MonoBehaviour
     {
 
         index = 0;
-        
+        //PlayerPrefs.SetInt("CharacterSelected", index);
         cambioSkin.GEvent += VerificarSkinA;
+        boton_nosepuede.SetActive(false);
+        img_sinSkin.SetActive(false);
     }
     void VerificarSkinA()
     {
-        index = PlayerPrefs.GetInt("SkinA");
+        index = PlayerPrefs.GetInt("CharacterSelected");
         if (index == 0)
         {
             botonplay.SetActive(true);
@@ -26,7 +28,7 @@ public class SelectionSkinManager : MonoBehaviour
         }
         else
         {
-            if (PlayerPrefs.GetInt(contadores[index]) >= 10)
+            if (PlayerPrefs.GetInt(contadores[index]) >= 100)
             {
                 botonplay.SetActive(true);
                 boton_nosepuede.SetActive(false);
