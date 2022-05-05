@@ -19713,7 +19713,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92e39190bfbb9094d8ba0b3e54f0ab96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cambioSkin: {fileID: 0}
   testing: 0
+  menu: 0
 --- !u!54 &1583043770
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -22311,7 +22313,7 @@ RectTransform:
   - {fileID: 627554108}
   - {fileID: 1517203999}
   m_Father: {fileID: 4813438306038180076}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -39954,7 +39956,7 @@ RectTransform:
   m_Children:
   - {fileID: 4813438304507198383}
   m_Father: {fileID: 4813438306038180076}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -40029,12 +40031,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4813438306038180076}
-  m_RootOrder: 0
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1, y: 170.00008}
-  m_SizeDelta: {x: 455.1401, y: 84.0748}
+  m_AnchoredPosition: {x: 0.066883, y: 145.8}
+  m_SizeDelta: {x: 432.6711, y: 69.536}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &4813438304507198380
 MonoBehaviour:
@@ -40294,7 +40296,7 @@ RectTransform:
   m_Children:
   - {fileID: 4813438304089496061}
   m_Father: {fileID: 4813438306038180076}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -40437,10 +40439,10 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 4813438304323811981}
   - {fileID: 4813438304206067505}
   - {fileID: 4813438305958201662}
   - {fileID: 1734804983}
+  - {fileID: 4813438304323811981}
   m_Father: {fileID: 4813438305736534979}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

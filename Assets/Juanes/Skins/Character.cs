@@ -14,6 +14,6 @@ public class Character : MonoBehaviour
     }
     public void ChangeMaterial(Material newMaterial)
     {
-        renderer.sharedMaterial = newMaterial;
+        //renderer.sharedMaterial = newMaterial;
     }
 }
