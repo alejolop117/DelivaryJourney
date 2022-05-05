@@ -11,7 +11,10 @@ public class ChangeScore : MonoBehaviour
     [SerializeField] bool testing;
     [SerializeField] int partidas;
     // Start is called before the first frame update
-    
+    private void Awake()
+    {
+        PlayerPrefs.SetInt("PuntajeSelected",0);
+    }
     void Start()
     {
         index = PlayerPrefs.GetInt("PuntajeSelected");

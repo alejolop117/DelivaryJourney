@@ -7,10 +7,18 @@ public class ListaPersonajes : MonoBehaviour
 {
     private GameObject[] characterList;
     private int index;
+    [SerializeField] Eventos cambioSkin;
     int partidas;
     [SerializeField] bool testing;
+    [SerializeField] bool menu;
     private void Awake()
     {
+        if (menu == true)
+        {
+            PlayerPrefs.SetInt("PuntajeSelected", 0);
+            PlayerPrefs.SetInt("CharacterSelected", 0);
+        }
+        
         if (testing == true)
         {
             PlayerPrefs.SetInt("P", 0);
@@ -32,10 +40,7 @@ public class ListaPersonajes : MonoBehaviour
             characterList[index].SetActive(true);
 
     }
-    void Update()
-    {
-
-    }
+    
 
     public void ToggleLeft()
     {
@@ -45,6 +50,8 @@ public class ListaPersonajes : MonoBehaviour
             index = characterList.Length - 1;
 
         characterList[index].SetActive(true);
+        PlayerPrefs.SetInt("CharacterSelected", index);
+        cambioSkin.FireEvent();
     }
 
     public void ToggleRight()
@@ -55,11 +62,14 @@ public class ListaPersonajes : MonoBehaviour
             index = 0;
 
         characterList[index].SetActive(true);
+        PlayerPrefs.SetInt("CharacterSelected", index);
+        cambioSkin.FireEvent();
     }
 
     public void ConfirmButton()
     {
         PlayerPrefs.SetInt("PuntajeSelected", index);
+        PlayerPrefs.SetInt("CharacterSelected", index);
         if (partidas > 0)
         {
             SceneManager.LoadScene("Main");
@@ -68,7 +78,7 @@ public class ListaPersonajes : MonoBehaviour
         {
            // PlayerPrefs.SetInt("P", 1);
            // PlayerPrefs.SetInt("TutorialHabilitado", 1);
-            SceneManager.LoadScene("VideoTEst");
+            SceneManager.LoadScene("Tutorial");
         }
     }
 }

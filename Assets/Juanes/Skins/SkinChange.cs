@@ -13,7 +13,7 @@ public class SkinChange : MonoBehaviour
     {
         index = data.CurrentMaterialIndex;
      
-        //PlayerPrefs.SetInt("SkinA", index);
+        PlayerPrefs.SetInt("SkinA", index);
      
         ChangeSkinA(0);
  
