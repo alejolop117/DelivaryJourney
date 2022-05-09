@@ -19665,6 +19665,7 @@ GameObject:
   - component: {fileID: 6269301915618143158}
   - component: {fileID: 4565522730625558105}
   - component: {fileID: 1583043769}
+  - component: {fileID: 1583043773}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -19828,6 +19829,21 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1583043773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1583043767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e00e34e950058640a1b9d88447a7bfa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  driftE: {fileID: 11400000, guid: 85abc3896ed2aee47a47dd62cc6c2e15, type: 2}
+  canvasMovement: {fileID: 463930438}
+  animTime: 0.5
 --- !u!4 &1583303137
 Transform:
   m_ObjectHideFlags: 0
@@ -27812,7 +27828,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!95 &1635183468682461043
 Animator:
   serializedVersion: 3
@@ -28234,7 +28250,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!95 &2487448982072118868
 Animator:
   serializedVersion: 3
@@ -42064,7 +42080,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!95 &7030058389793814352
 Animator:
   serializedVersion: 3
