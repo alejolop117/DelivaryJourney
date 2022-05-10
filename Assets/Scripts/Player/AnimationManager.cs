@@ -18,13 +18,13 @@ public class AnimationManager : MonoBehaviour
         for (ushort i = 0; i < driftAnim.Length; i++) {
             driftAnim[i].SetBool("Drift", true);
         }
-        canvasMovement.SetActive(false);
+        //canvasMovement.SetActive(false);
         yield return new WaitForSeconds(animTime);
 
         for (ushort i = 0; i < driftAnim.Length; i++) {
             driftAnim[i].SetBool("Drift", false);
         }
-        canvasMovement.SetActive(true);
+        //canvasMovement.SetActive(true);
     }
 
     void Drift() {
