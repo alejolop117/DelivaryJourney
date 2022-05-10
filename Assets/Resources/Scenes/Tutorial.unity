@@ -6109,8 +6109,12 @@ PrefabInstance:
       value: -109
       objectReference: {fileID: 0}
     - target: {fileID: 7831438853886738662, guid: e65425c503cd456429b87f919b80cf0c, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 100.0849
+      objectReference: {fileID: 0}
+    - target: {fileID: 7831438853886738662, guid: e65425c503cd456429b87f919b80cf0c, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -344
+      value: -327.79004
       objectReference: {fileID: 0}
     - target: {fileID: 7831438853999844664, guid: e65425c503cd456429b87f919b80cf0c, type: 3}
       propertyPath: m_Pivot.x
@@ -7504,7 +7508,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92e39190bfbb9094d8ba0b3e54f0ab96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cambioSkin: {fileID: 0}
   testing: 0
+  menu: 0
 --- !u!54 &1583043770
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11677,7 +11683,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 22db59e33af969542b8141446007ba96, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c6a28b89aeb8b0644961286640fd59d8, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -11873,7 +11879,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 93813f861bd4fb340afd98a3051ef9e4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b80bd71934618fe42ab53c504fdf6c4f, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -19330,7 +19336,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 742837359256d6b48ab6cbf62c36d7bf, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5f955cec970aa3643b22f8a987f1c01b, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -19361,8 +19367,8 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0.6981132, g: 0.6981132, b: 0.6981132, a: 1}
-    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.5294118, g: 0.5294118, b: 0.5294118, a: 1}
     m_PressedColor: {r: 0.5283019, g: 0.5283019, b: 0.5283019, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
@@ -29427,7 +29433,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 93813f861bd4fb340afd98a3051ef9e4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 09c860d376a2de64dac00968a750340c, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -29803,7 +29809,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 22db59e33af969542b8141446007ba96, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c6a28b89aeb8b0644961286640fd59d8, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -51376,7 +51382,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92e39190bfbb9094d8ba0b3e54f0ab96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cambioSkin: {fileID: 0}
   testing: 0
+  menu: 0
 --- !u!1 &8499915991485591006
 GameObject:
   m_ObjectHideFlags: 0
