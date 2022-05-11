@@ -182,6 +182,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Recolectable Verde (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8345719524347696993, guid: 7619b49458268434597f9c2bc495111b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7619b49458268434597f9c2bc495111b, type: 3}
 --- !u!1001 &18260037
@@ -198,6 +202,10 @@ PrefabInstance:
     - target: {fileID: 5788301735969973073, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
       propertyPath: m_Name
       value: Recolectable Azul (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5788301735969973073, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6987525094121919178, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
       propertyPath: m_RootOrder
@@ -1056,6 +1064,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Recolectable Verde (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8345719524347696993, guid: 7619b49458268434597f9c2bc495111b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7619b49458268434597f9c2bc495111b, type: 3}
 --- !u!1001 &90468668
@@ -1361,6 +1373,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Recolectable Verde
       objectReference: {fileID: 0}
+    - target: {fileID: 8345719524347696993, guid: 7619b49458268434597f9c2bc495111b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7619b49458268434597f9c2bc495111b, type: 3}
 --- !u!1 &105199792 stripped
@@ -1471,6 +1487,10 @@ PrefabInstance:
     - target: {fileID: 5788301735969973073, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
       propertyPath: m_Name
       value: Recolectable Azul (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5788301735969973073, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6987525094121919178, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
       propertyPath: m_RootOrder
@@ -1959,6 +1979,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Recolectable Verde (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8345719524347696993, guid: 7619b49458268434597f9c2bc495111b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7619b49458268434597f9c2bc495111b, type: 3}
 --- !u!1001 &202389992
@@ -2107,6 +2131,10 @@ PrefabInstance:
     - target: {fileID: 5993724288270035690, guid: d6831408e3677554c960c36300b687f1, type: 3}
       propertyPath: m_Name
       value: Recolectable Cafe (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5993724288270035690, guid: d6831408e3677554c960c36300b687f1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7170149194369391473, guid: d6831408e3677554c960c36300b687f1, type: 3}
       propertyPath: m_RootOrder
@@ -2425,6 +2453,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Recolectable Cafe
       objectReference: {fileID: 0}
+    - target: {fileID: 5993724288270035690, guid: d6831408e3677554c960c36300b687f1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7170149194369391473, guid: d6831408e3677554c960c36300b687f1, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -2708,7 +2740,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &259481146
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2878,8 +2910,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 1.306488, y: -7.564499}
-  m_SizeDelta: {x: 50.3721, y: 33.589}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &268733967
 MonoBehaviour:
@@ -2995,6 +3027,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Recolectable Azul (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5788301735969973073, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6987525094121919178, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -3055,6 +3091,10 @@ PrefabInstance:
     - target: {fileID: 5993724288270035690, guid: d6831408e3677554c960c36300b687f1, type: 3}
       propertyPath: m_Name
       value: Recolectable Cafe (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5993724288270035690, guid: d6831408e3677554c960c36300b687f1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7170149194369391473, guid: d6831408e3677554c960c36300b687f1, type: 3}
       propertyPath: m_RootOrder
@@ -3914,6 +3954,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Recolectable Verde (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8345719524347696993, guid: 7619b49458268434597f9c2bc495111b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7619b49458268434597f9c2bc495111b, type: 3}
 --- !u!1001 &419354700
@@ -3930,6 +3974,10 @@ PrefabInstance:
     - target: {fileID: 5788301735969973073, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
       propertyPath: m_Name
       value: Recolectable Azul (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5788301735969973073, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6987525094121919178, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
       propertyPath: m_RootOrder
@@ -4264,6 +4312,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Recolectable Verde (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8345719524347696993, guid: 7619b49458268434597f9c2bc495111b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7619b49458268434597f9c2bc495111b, type: 3}
 --- !u!1001 &453246899
@@ -4510,6 +4562,10 @@ PrefabInstance:
     - target: {fileID: 5788301735969973073, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
       propertyPath: m_Name
       value: Recolectable Azul (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5788301735969973073, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6987525094121919178, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
       propertyPath: m_RootOrder
@@ -4850,6 +4906,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Recolectable Verde (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8345719524347696993, guid: 7619b49458268434597f9c2bc495111b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7619b49458268434597f9c2bc495111b, type: 3}
 --- !u!1 &516831048
@@ -4896,6 +4956,10 @@ PrefabInstance:
     - target: {fileID: 5993724288270035690, guid: d6831408e3677554c960c36300b687f1, type: 3}
       propertyPath: m_Name
       value: Recolectable Cafe (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5993724288270035690, guid: d6831408e3677554c960c36300b687f1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7170149194369391473, guid: d6831408e3677554c960c36300b687f1, type: 3}
       propertyPath: m_RootOrder
@@ -5537,6 +5601,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Recolectable Cafe (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5993724288270035690, guid: d6831408e3677554c960c36300b687f1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7170149194369391473, guid: d6831408e3677554c960c36300b687f1, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -5597,6 +5665,10 @@ PrefabInstance:
     - target: {fileID: 5788301735969973073, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
       propertyPath: m_Name
       value: Recolectable Azul
+      objectReference: {fileID: 0}
+    - target: {fileID: 5788301735969973073, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6987525094121919178, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
       propertyPath: m_RootOrder
@@ -6011,6 +6083,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Recolectable Verde (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8345719524347696993, guid: 7619b49458268434597f9c2bc495111b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7619b49458268434597f9c2bc495111b, type: 3}
 --- !u!1001 &623950073
@@ -6401,6 +6477,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Recolectable Verde
       objectReference: {fileID: 0}
+    - target: {fileID: 8345719524347696993, guid: 7619b49458268434597f9c2bc495111b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7619b49458268434597f9c2bc495111b, type: 3}
 --- !u!1001 &640332186
@@ -6548,6 +6628,10 @@ PrefabInstance:
     - target: {fileID: 5788301735969973073, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
       propertyPath: m_Name
       value: Recolectable Azul (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5788301735969973073, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6987525094121919178, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
       propertyPath: m_RootOrder
@@ -6846,6 +6930,10 @@ PrefabInstance:
     - target: {fileID: 8345719524347696993, guid: 7619b49458268434597f9c2bc495111b, type: 3}
       propertyPath: m_Name
       value: Recolectable Verde (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8345719524347696993, guid: 7619b49458268434597f9c2bc495111b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7619b49458268434597f9c2bc495111b, type: 3}
@@ -7271,6 +7359,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Recolectable Cafe (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5993724288270035690, guid: d6831408e3677554c960c36300b687f1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7170149194369391473, guid: d6831408e3677554c960c36300b687f1, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -7336,6 +7428,10 @@ PrefabInstance:
     - target: {fileID: 5993724288270035690, guid: d6831408e3677554c960c36300b687f1, type: 3}
       propertyPath: m_Name
       value: Recolectable Cafe (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5993724288270035690, guid: d6831408e3677554c960c36300b687f1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7170149194369391473, guid: d6831408e3677554c960c36300b687f1, type: 3}
       propertyPath: m_RootOrder
@@ -7585,6 +7681,10 @@ PrefabInstance:
     - target: {fileID: 8345719524347696993, guid: 7619b49458268434597f9c2bc495111b, type: 3}
       propertyPath: m_Name
       value: Recolectable Verde
+      objectReference: {fileID: 0}
+    - target: {fileID: 8345719524347696993, guid: 7619b49458268434597f9c2bc495111b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7619b49458268434597f9c2bc495111b, type: 3}
@@ -7992,6 +8092,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Recolectable Verde (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8345719524347696993, guid: 7619b49458268434597f9c2bc495111b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7619b49458268434597f9c2bc495111b, type: 3}
 --- !u!1001 &735706671
@@ -8278,6 +8382,10 @@ PrefabInstance:
     - target: {fileID: 5993724288270035690, guid: d6831408e3677554c960c36300b687f1, type: 3}
       propertyPath: m_Name
       value: Recolectable Cafe (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5993724288270035690, guid: d6831408e3677554c960c36300b687f1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7170149194369391473, guid: d6831408e3677554c960c36300b687f1, type: 3}
       propertyPath: m_RootOrder
@@ -8617,6 +8725,10 @@ PrefabInstance:
     - target: {fileID: 8345719524347696993, guid: 7619b49458268434597f9c2bc495111b, type: 3}
       propertyPath: m_Name
       value: Recolectable Verde
+      objectReference: {fileID: 0}
+    - target: {fileID: 8345719524347696993, guid: 7619b49458268434597f9c2bc495111b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7619b49458268434597f9c2bc495111b, type: 3}
@@ -9050,6 +9162,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Recolectable Verde (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8345719524347696993, guid: 7619b49458268434597f9c2bc495111b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7619b49458268434597f9c2bc495111b, type: 3}
 --- !u!1001 &831959337
@@ -9265,6 +9381,10 @@ PrefabInstance:
     - target: {fileID: 2160871909659195633, guid: 608b61ae0b085b148a4d18c03cc88d08, type: 3}
       propertyPath: m_Name
       value: SpeedViewer
+      objectReference: {fileID: 0}
+    - target: {fileID: 2160871909659195633, guid: 608b61ae0b085b148a4d18c03cc88d08, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2160871909659195634, guid: 608b61ae0b085b148a4d18c03cc88d08, type: 3}
       propertyPath: m_text
@@ -9873,6 +9993,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Recolectable Azul (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5788301735969973073, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6987525094121919178, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -10443,6 +10567,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Recolectable Verde (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8345719524347696993, guid: 7619b49458268434597f9c2bc495111b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7619b49458268434597f9c2bc495111b, type: 3}
 --- !u!1 &945661035
@@ -10464,7 +10592,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &945661036
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10624,6 +10752,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Recolectable Cafe (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5993724288270035690, guid: d6831408e3677554c960c36300b687f1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7170149194369391473, guid: d6831408e3677554c960c36300b687f1, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -10750,6 +10882,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Recolectable Azul (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5788301735969973073, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6987525094121919178, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -10854,6 +10990,10 @@ PrefabInstance:
     - target: {fileID: 8345719524347696993, guid: 7619b49458268434597f9c2bc495111b, type: 3}
       propertyPath: m_Name
       value: Recolectable Verde (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8345719524347696993, guid: 7619b49458268434597f9c2bc495111b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7619b49458268434597f9c2bc495111b, type: 3}
@@ -11172,6 +11312,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Recolectable Azul
       objectReference: {fileID: 0}
+    - target: {fileID: 5788301735969973073, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6987525094121919178, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -11368,6 +11512,10 @@ PrefabInstance:
     - target: {fileID: 5788301735969973073, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
       propertyPath: m_Name
       value: Recolectable Azul (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5788301735969973073, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6987525094121919178, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
       propertyPath: m_RootOrder
@@ -11908,6 +12056,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Recolectable Cafe (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5993724288270035690, guid: d6831408e3677554c960c36300b687f1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7170149194369391473, guid: d6831408e3677554c960c36300b687f1, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -12253,6 +12405,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Recolectable Azul (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5788301735969973073, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6987525094121919178, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
       propertyPath: m_RootOrder
       value: 19
@@ -12324,6 +12480,10 @@ PrefabInstance:
     - target: {fileID: 5788301735969973073, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
       propertyPath: m_Name
       value: Recolectable Azul
+      objectReference: {fileID: 0}
+    - target: {fileID: 5788301735969973073, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6987525094121919178, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
       propertyPath: m_RootOrder
@@ -12429,6 +12589,10 @@ PrefabInstance:
     - target: {fileID: 8345719524347696993, guid: 7619b49458268434597f9c2bc495111b, type: 3}
       propertyPath: m_Name
       value: Recolectable Verde (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8345719524347696993, guid: 7619b49458268434597f9c2bc495111b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7619b49458268434597f9c2bc495111b, type: 3}
@@ -12614,6 +12778,10 @@ PrefabInstance:
     - target: {fileID: 5788301735969973073, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
       propertyPath: m_Name
       value: Recolectable Azul
+      objectReference: {fileID: 0}
+    - target: {fileID: 5788301735969973073, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6987525094121919178, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
       propertyPath: m_RootOrder
@@ -12899,6 +13067,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Recolectable Azul
       objectReference: {fileID: 0}
+    - target: {fileID: 5788301735969973073, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6987525094121919178, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -13020,6 +13192,10 @@ PrefabInstance:
     - target: {fileID: 5788301735969973073, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
       propertyPath: m_Name
       value: Recolectable Azul (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5788301735969973073, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6987525094121919178, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
       propertyPath: m_RootOrder
@@ -14145,6 +14321,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Recolectable Verde (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8345719524347696993, guid: 7619b49458268434597f9c2bc495111b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7619b49458268434597f9c2bc495111b, type: 3}
 --- !u!1 &1198331684
@@ -14394,6 +14574,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Recolectable Azul (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5788301735969973073, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6987525094121919178, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -14539,6 +14723,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Recolectable Azul
       objectReference: {fileID: 0}
+    - target: {fileID: 5788301735969973073, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6987525094121919178, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -14599,6 +14787,10 @@ PrefabInstance:
     - target: {fileID: 5788301735969973073, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
       propertyPath: m_Name
       value: Recolectable Azul (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5788301735969973073, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6987525094121919178, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
       propertyPath: m_RootOrder
@@ -14978,6 +15170,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Recolectable Azul (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5788301735969973073, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6987525094121919178, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -15173,6 +15369,10 @@ PrefabInstance:
     - target: {fileID: 5788301735969973073, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
       propertyPath: m_Name
       value: Recolectable Azul (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5788301735969973073, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6987525094121919178, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
       propertyPath: m_RootOrder
@@ -15415,7 +15615,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1327828829
 RectTransform:
   m_ObjectHideFlags: 0
@@ -15905,6 +16105,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Recolectable Verde
       objectReference: {fileID: 0}
+    - target: {fileID: 8345719524347696993, guid: 7619b49458268434597f9c2bc495111b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7619b49458268434597f9c2bc495111b, type: 3}
 --- !u!1001 &1358411653
@@ -16064,7 +16268,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1360090308
 RectTransform:
   m_ObjectHideFlags: 0
@@ -16278,6 +16482,10 @@ PrefabInstance:
     - target: {fileID: 8345719524347696993, guid: 7619b49458268434597f9c2bc495111b, type: 3}
       propertyPath: m_Name
       value: Recolectable Verde (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8345719524347696993, guid: 7619b49458268434597f9c2bc495111b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7619b49458268434597f9c2bc495111b, type: 3}
@@ -16539,6 +16747,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Recolectable Verde (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 8345719524347696993, guid: 7619b49458268434597f9c2bc495111b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7619b49458268434597f9c2bc495111b, type: 3}
 --- !u!1001 &1387866482
@@ -16555,6 +16767,10 @@ PrefabInstance:
     - target: {fileID: 5788301735969973073, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
       propertyPath: m_Name
       value: Recolectable Azul (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5788301735969973073, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6987525094121919178, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
       propertyPath: m_RootOrder
@@ -16952,6 +17168,10 @@ PrefabInstance:
     - target: {fileID: 8345719524347696993, guid: 7619b49458268434597f9c2bc495111b, type: 3}
       propertyPath: m_Name
       value: Recolectable Verde (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8345719524347696993, guid: 7619b49458268434597f9c2bc495111b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7619b49458268434597f9c2bc495111b, type: 3}
@@ -17838,6 +18058,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Recolectable Verde (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8345719524347696993, guid: 7619b49458268434597f9c2bc495111b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7619b49458268434597f9c2bc495111b, type: 3}
 --- !u!1001 &1477053609
@@ -18326,6 +18550,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Recolectable Azul (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5788301735969973073, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6987525094121919178, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -18585,6 +18813,10 @@ PrefabInstance:
     - target: {fileID: 5788301735969973073, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
       propertyPath: m_Name
       value: Recolectable Azul (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5788301735969973073, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6987525094121919178, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
       propertyPath: m_RootOrder
@@ -18862,6 +19094,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Recolectable Cafe (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5993724288270035690, guid: d6831408e3677554c960c36300b687f1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7170149194369391473, guid: d6831408e3677554c960c36300b687f1, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -19105,6 +19341,10 @@ PrefabInstance:
     - target: {fileID: 5788301735969973073, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
       propertyPath: m_Name
       value: Recolectable Azul (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5788301735969973073, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6987525094121919178, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
       propertyPath: m_RootOrder
@@ -19603,6 +19843,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Recolectable Azul
       objectReference: {fileID: 0}
+    - target: {fileID: 5788301735969973073, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6987525094121919178, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -19672,7 +19916,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1583043768
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19876,6 +20120,10 @@ PrefabInstance:
     - target: {fileID: 5993724288270035690, guid: d6831408e3677554c960c36300b687f1, type: 3}
       propertyPath: m_Name
       value: Recolectable Cafe
+      objectReference: {fileID: 0}
+    - target: {fileID: 5993724288270035690, guid: d6831408e3677554c960c36300b687f1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7170149194369391473, guid: d6831408e3677554c960c36300b687f1, type: 3}
       propertyPath: m_RootOrder
@@ -20243,6 +20491,10 @@ PrefabInstance:
     - target: {fileID: 5993724288270035690, guid: d6831408e3677554c960c36300b687f1, type: 3}
       propertyPath: m_Name
       value: Recolectable Cafe (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5993724288270035690, guid: d6831408e3677554c960c36300b687f1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7170149194369391473, guid: d6831408e3677554c960c36300b687f1, type: 3}
       propertyPath: m_RootOrder
@@ -21210,6 +21462,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Recolectable Verde (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 8345719524347696993, guid: 7619b49458268434597f9c2bc495111b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7619b49458268434597f9c2bc495111b, type: 3}
 --- !u!1 &1652588911
@@ -21541,6 +21797,10 @@ PrefabInstance:
     - target: {fileID: 8345719524347696993, guid: 7619b49458268434597f9c2bc495111b, type: 3}
       propertyPath: m_Name
       value: Recolectable Verde (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8345719524347696993, guid: 7619b49458268434597f9c2bc495111b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7619b49458268434597f9c2bc495111b, type: 3}
@@ -21964,6 +22224,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Recolectable Verde (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8345719524347696993, guid: 7619b49458268434597f9c2bc495111b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7619b49458268434597f9c2bc495111b, type: 3}
 --- !u!1 &1677470449
@@ -22010,6 +22274,10 @@ PrefabInstance:
     - target: {fileID: 5993724288270035690, guid: d6831408e3677554c960c36300b687f1, type: 3}
       propertyPath: m_Name
       value: Recolectable Cafe
+      objectReference: {fileID: 0}
+    - target: {fileID: 5993724288270035690, guid: d6831408e3677554c960c36300b687f1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7170149194369391473, guid: d6831408e3677554c960c36300b687f1, type: 3}
       propertyPath: m_RootOrder
@@ -22115,6 +22383,10 @@ PrefabInstance:
     - target: {fileID: 8345719524347696993, guid: 7619b49458268434597f9c2bc495111b, type: 3}
       propertyPath: m_Name
       value: Recolectable Verde
+      objectReference: {fileID: 0}
+    - target: {fileID: 8345719524347696993, guid: 7619b49458268434597f9c2bc495111b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7619b49458268434597f9c2bc495111b, type: 3}
@@ -22528,6 +22800,10 @@ PrefabInstance:
     - target: {fileID: 5993724288270035690, guid: d6831408e3677554c960c36300b687f1, type: 3}
       propertyPath: m_Name
       value: Recolectable Cafe (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5993724288270035690, guid: d6831408e3677554c960c36300b687f1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7170149194369391473, guid: d6831408e3677554c960c36300b687f1, type: 3}
       propertyPath: m_RootOrder
@@ -23151,6 +23427,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Recolectable Cafe (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5993724288270035690, guid: d6831408e3677554c960c36300b687f1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7170149194369391473, guid: d6831408e3677554c960c36300b687f1, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -23322,6 +23602,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Recolectable Cafe
       objectReference: {fileID: 0}
+    - target: {fileID: 5993724288270035690, guid: d6831408e3677554c960c36300b687f1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7170149194369391473, guid: d6831408e3677554c960c36300b687f1, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -23427,6 +23711,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Recolectable Verde (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8345719524347696993, guid: 7619b49458268434597f9c2bc495111b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7619b49458268434597f9c2bc495111b, type: 3}
 --- !u!1 &1818280849 stripped
@@ -23506,6 +23794,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Recolectable Azul (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5788301735969973073, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6987525094121919178, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -23566,6 +23858,10 @@ PrefabInstance:
     - target: {fileID: 5788301735969973073, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
       propertyPath: m_Name
       value: Recolectable Azul
+      objectReference: {fileID: 0}
+    - target: {fileID: 5788301735969973073, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6987525094121919178, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
       propertyPath: m_RootOrder
@@ -23689,6 +23985,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Recolectable Azul (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5788301735969973073, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6987525094121919178, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -23749,6 +24049,10 @@ PrefabInstance:
     - target: {fileID: 5788301735969973073, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
       propertyPath: m_Name
       value: Recolectable Azul (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5788301735969973073, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6987525094121919178, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
       propertyPath: m_RootOrder
@@ -23811,6 +24115,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Recolectable Cafe (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5993724288270035690, guid: d6831408e3677554c960c36300b687f1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7170149194369391473, guid: d6831408e3677554c960c36300b687f1, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -23871,6 +24179,10 @@ PrefabInstance:
     - target: {fileID: 5788301735969973073, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
       propertyPath: m_Name
       value: Recolectable Azul (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5788301735969973073, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6987525094121919178, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
       propertyPath: m_RootOrder
@@ -24452,6 +24764,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Recolectable Verde (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8345719524347696993, guid: 7619b49458268434597f9c2bc495111b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7619b49458268434597f9c2bc495111b, type: 3}
 --- !u!1001 &1901672058
@@ -24512,6 +24828,10 @@ PrefabInstance:
     - target: {fileID: 8345719524347696993, guid: 7619b49458268434597f9c2bc495111b, type: 3}
       propertyPath: m_Name
       value: Recolectable Verde (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8345719524347696993, guid: 7619b49458268434597f9c2bc495111b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7619b49458268434597f9c2bc495111b, type: 3}
@@ -24609,6 +24929,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Recolectable Cafe
       objectReference: {fileID: 0}
+    - target: {fileID: 5993724288270035690, guid: d6831408e3677554c960c36300b687f1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7170149194369391473, guid: d6831408e3677554c960c36300b687f1, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -24669,6 +24993,10 @@ PrefabInstance:
     - target: {fileID: 5993724288270035690, guid: d6831408e3677554c960c36300b687f1, type: 3}
       propertyPath: m_Name
       value: Recolectable Cafe (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5993724288270035690, guid: d6831408e3677554c960c36300b687f1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7170149194369391473, guid: d6831408e3677554c960c36300b687f1, type: 3}
       propertyPath: m_RootOrder
@@ -25622,6 +25950,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Recolectable Verde (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 8345719524347696993, guid: 7619b49458268434597f9c2bc495111b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7619b49458268434597f9c2bc495111b, type: 3}
 --- !u!224 &1992200320 stripped
@@ -25643,6 +25975,10 @@ PrefabInstance:
     - target: {fileID: 5993724288270035690, guid: d6831408e3677554c960c36300b687f1, type: 3}
       propertyPath: m_Name
       value: Recolectable Cafe
+      objectReference: {fileID: 0}
+    - target: {fileID: 5993724288270035690, guid: d6831408e3677554c960c36300b687f1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7170149194369391473, guid: d6831408e3677554c960c36300b687f1, type: 3}
       propertyPath: m_RootOrder
@@ -25817,6 +26153,10 @@ PrefabInstance:
     - target: {fileID: 6558078384658510885, guid: 568a8d1e60849494bbb7d25b6475867b, type: 3}
       propertyPath: m_Name
       value: Charco
+      objectReference: {fileID: 0}
+    - target: {fileID: 6558078384658510885, guid: 568a8d1e60849494bbb7d25b6475867b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 568a8d1e60849494bbb7d25b6475867b, type: 3}
@@ -26050,6 +26390,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Recolectable Verde
       objectReference: {fileID: 0}
+    - target: {fileID: 8345719524347696993, guid: 7619b49458268434597f9c2bc495111b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7619b49458268434597f9c2bc495111b, type: 3}
 --- !u!1 &2060322587 stripped
@@ -26133,6 +26477,10 @@ PrefabInstance:
     - target: {fileID: 5993724288270035690, guid: d6831408e3677554c960c36300b687f1, type: 3}
       propertyPath: m_Name
       value: Recolectable Cafe (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5993724288270035690, guid: d6831408e3677554c960c36300b687f1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7170149194369391473, guid: d6831408e3677554c960c36300b687f1, type: 3}
       propertyPath: m_RootOrder
@@ -26238,6 +26586,10 @@ PrefabInstance:
     - target: {fileID: 8345719524347696993, guid: 7619b49458268434597f9c2bc495111b, type: 3}
       propertyPath: m_Name
       value: Recolectable Verde (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8345719524347696993, guid: 7619b49458268434597f9c2bc495111b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7619b49458268434597f9c2bc495111b, type: 3}
@@ -26357,6 +26709,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Recolectable Verde
       objectReference: {fileID: 0}
+    - target: {fileID: 8345719524347696993, guid: 7619b49458268434597f9c2bc495111b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7619b49458268434597f9c2bc495111b, type: 3}
 --- !u!1001 &2086921540
@@ -26373,6 +26729,10 @@ PrefabInstance:
     - target: {fileID: 5788301735969973073, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
       propertyPath: m_Name
       value: Recolectable Azul (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5788301735969973073, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6987525094121919178, guid: 07dc7502e5311e240aab71f2ce00f08c, type: 3}
       propertyPath: m_RootOrder
@@ -26637,6 +26997,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Recolectable Verde (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8345719524347696993, guid: 7619b49458268434597f9c2bc495111b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7619b49458268434597f9c2bc495111b, type: 3}
 --- !u!1 &2112485743
@@ -26793,6 +27157,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Charco
       objectReference: {fileID: 0}
+    - target: {fileID: 6558078384658510885, guid: 568a8d1e60849494bbb7d25b6475867b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 568a8d1e60849494bbb7d25b6475867b, type: 3}
 --- !u!1 &2117197451
@@ -26897,6 +27265,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Recolectable Verde (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8345719524347696993, guid: 7619b49458268434597f9c2bc495111b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7619b49458268434597f9c2bc495111b, type: 3}
 --- !u!1001 &2121589961
@@ -26913,6 +27285,10 @@ PrefabInstance:
     - target: {fileID: 5993724288270035690, guid: d6831408e3677554c960c36300b687f1, type: 3}
       propertyPath: m_Name
       value: Recolectable Cafe (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5993724288270035690, guid: d6831408e3677554c960c36300b687f1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7170149194369391473, guid: d6831408e3677554c960c36300b687f1, type: 3}
       propertyPath: m_RootOrder
@@ -40435,7 +40811,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!222 &4813438306038180074
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -40486,7 +40862,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &4813438306038180080
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47636,6 +48012,10 @@ PrefabInstance:
     - target: {fileID: 8793794942095207465, guid: b76adfe2df69ed54baef8ded26a72eaf, type: 3}
       propertyPath: m_Name
       value: ContadorCajas
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793794942095207465, guid: b76adfe2df69ed54baef8ded26a72eaf, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b76adfe2df69ed54baef8ded26a72eaf, type: 3}

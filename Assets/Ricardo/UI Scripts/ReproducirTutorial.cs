@@ -18,6 +18,6 @@ public class ReproducirTutorial : MonoBehaviour
     }
     public void PlayTutorial()
     {
-        SceneManager.LoadScene("VideoTEst");
+        SceneManager.LoadScene("Tutorial");
     }
 }
