@@ -181,7 +181,7 @@ public class LevelManager : MonoBehaviour
         {
             tunnelCounter++;
             GameObject temp;
-            temp = secttion[Random.Range(0, 4)];
+            temp = secttion[Random.Range(0, 3)];
             temp.SetActive(true);
             temp.transform.position = spawn.position;
             temp.transform.rotation = spawn.rotation;
