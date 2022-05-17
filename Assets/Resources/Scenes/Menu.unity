@@ -913,6 +913,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7d0596fd38e74a49b3dfc0cdf227c14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tut: 0
 --- !u!114 &266997714
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1444,7 +1445,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 1940, y: -20.8884}
+  m_AnchoredPosition: {x: 1940, y: -20.888428}
   m_SizeDelta: {x: 0, y: -41.7767}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &472395219
@@ -24957,7 +24958,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cambioSkin: {fileID: 11400000, guid: 9a6bd2ded6a305a48947843bb636f847, type: 2}
-  testing: 1
+  testing: 0
   menu: 1
 --- !u!54 &7672066471103831727
 Rigidbody:

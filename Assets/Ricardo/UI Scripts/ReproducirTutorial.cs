@@ -4,9 +4,11 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class ReproducirTutorial : MonoBehaviour
 {
-    private void Awake()
+    public int tut;
+    /*private void Awake()
     {
-        if (PlayerPrefs.GetInt("TutorialHabilitado") > 0)
+        tut = PlayerPrefs.GetInt("TutorialHabilitado");
+        if (tut > 0)
         {
             this.gameObject.SetActive(true);
         }
@@ -15,9 +17,9 @@ public class ReproducirTutorial : MonoBehaviour
             this.gameObject.SetActive(false);
 
         }
-    }
+    }*/
     public void PlayTutorial()
     {
-        SceneManager.LoadScene("Tutorial");
+        SceneManager.LoadScene("VideoTEst");
     }
 }
