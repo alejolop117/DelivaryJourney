@@ -13,6 +13,8 @@ public class InventarioCajas : MonoBehaviour
     [SerializeField] private int maximoPorCaja, conteoActual, cajasLlenas,objetivoSkin;
     [SerializeField] int skinGanada;
 
+    [SerializeField] bool tutorial;
+
     
     [SerializeField] float tiempoSkin;
     public int conteoGeneral;
@@ -80,7 +82,11 @@ public class InventarioCajas : MonoBehaviour
             //sumarV.FireEvent();
         }
         conteoActual = 1;
-        PlayerPrefs.SetInt("Conteo Cajas " + nombreCaja, conteoGeneral);
+        if (tutorial == false)
+        {
+            PlayerPrefs.SetInt("Conteo Cajas " + nombreCaja, conteoGeneral);
+        }
+        
         conteoCaja.text = ((PlayerPrefs.GetInt("Conteo Cajas " + nombreCaja)).ToString()) + " / "+objetivoSkin;
         
         cajasLlenas = 0;
@@ -111,9 +117,13 @@ public class InventarioCajas : MonoBehaviour
     }
     void ReinicarContador()
     {
-        PlayerPrefs.SetInt("Conteo Cajas " + nombreCaja, 0);
-        PlayerPrefs.SetInt("Skin " + nombreCaja + " ganada", 0);
-        PlayerPrefs.SetInt("Record", 0);
+        if (tutorial == false)
+        {
+            PlayerPrefs.SetInt("Conteo Cajas " + nombreCaja, 0);
+            PlayerPrefs.SetInt("Skin " + nombreCaja + " ganada", 0);
+            PlayerPrefs.SetInt("Record", 0);
+        }
+        
     }
     void GameOver()
     {

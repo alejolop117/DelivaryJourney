@@ -3003,7 +3003,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Necesitas haber entregado 50 cajas y llegar a los 150 km / h en la misma
+  m_text: Necesitas haber entregado 150 cajas y llegar a los 150 km / h en la misma
     partida
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3950f7c990da44241b941c6e47277010, type: 2}
