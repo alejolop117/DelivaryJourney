@@ -9,7 +9,7 @@ public class antitrampa : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            Debug.Log("sin trampa");
+            //Debug.Log("sin trampa");
             PlayerPrefs.SetInt("P", 1);
             PlayerPrefs.SetInt("TutorialHabilitado", 1);
             reiniciarPuntaje.FireEvent();
