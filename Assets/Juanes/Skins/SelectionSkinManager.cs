@@ -26,6 +26,21 @@ public class SelectionSkinManager : MonoBehaviour
             boton_nosepuede.SetActive(false);
             img_sinSkin.SetActive(false);
         }
+        else if (index == 4)
+        {
+            if (PlayerPrefs.GetInt("SkinBonus") > 0)
+            {
+                botonplay.SetActive(true);
+                boton_nosepuede.SetActive(false);
+                img_sinSkin.SetActive(false);
+            }
+            else
+            {
+                botonplay.SetActive(false);
+                boton_nosepuede.SetActive(false);
+                img_sinSkin.SetActive(false);
+            }
+        }
         else
         {
             if (PlayerPrefs.GetInt(contadores[index]) >= 100)
