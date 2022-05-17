@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: 6771947350433086505}
   - component: {fileID: 6771947350433086510}
   - component: {fileID: 169492240}
+  - component: {fileID: 8708742279169882624}
   m_Layer: 0
   m_Name: ManagerCajas
   m_TagString: Untagged
@@ -75,7 +76,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pooledObjects: []
   objectToPool: {fileID: 4463393193232386754, guid: 5f83c91baf6d30f4aa0ed457b77df13f, type: 3}
-  amountToPool: 6
+  amountToPool: 16
 --- !u!114 &624886415683242276
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -90,7 +91,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pooledObjects: []
   objectToPool: {fileID: 1050871060338417836, guid: df3d435eebcef4446b9a89dfe93d5799, type: 3}
-  amountToPool: 6
+  amountToPool: 16
 --- !u!114 &129219783670674797
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -105,7 +106,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pooledObjects: []
   objectToPool: {fileID: 8800295921002117336, guid: 9fae1b289b0208f4ca45a4333b6c6f37, type: 3}
-  amountToPool: 6
+  amountToPool: 16
 --- !u!114 &6771947350433086498
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -163,6 +164,7 @@ MonoBehaviour:
   ganarSkin: {fileID: 11400000, guid: 299d07b19ea2d0443aa6e512a41949d0, type: 2}
   finTutorial: {fileID: 11400000, guid: 9495b76b366eda64f9311f5e5c1b77aa, type: 2}
   gameOver: {fileID: 11400000, guid: d0c05096ef1f3814bb51069f12b10a2e, type: 2}
+  antitrampa: {fileID: 11400000, guid: 0e09a1f63257b0f4395408acc2e10496, type: 2}
   nombreCaja: Cafe
   conteoCaja: {fileID: 0}
   record: {fileID: 169492240}
@@ -192,6 +194,7 @@ MonoBehaviour:
   ganarSkin: {fileID: 11400000, guid: 3f87687dc24f70e478ce4e3122e7eec3, type: 2}
   finTutorial: {fileID: 11400000, guid: 9495b76b366eda64f9311f5e5c1b77aa, type: 2}
   gameOver: {fileID: 11400000, guid: d0c05096ef1f3814bb51069f12b10a2e, type: 2}
+  antitrampa: {fileID: 11400000, guid: 0e09a1f63257b0f4395408acc2e10496, type: 2}
   nombreCaja: Verde
   conteoCaja: {fileID: 0}
   record: {fileID: 169492240}
@@ -221,6 +224,7 @@ MonoBehaviour:
   ganarSkin: {fileID: 11400000, guid: 36b1ec92b18f01c4ab3314b293258849, type: 2}
   finTutorial: {fileID: 11400000, guid: 9495b76b366eda64f9311f5e5c1b77aa, type: 2}
   gameOver: {fileID: 11400000, guid: d0c05096ef1f3814bb51069f12b10a2e, type: 2}
+  antitrampa: {fileID: 11400000, guid: 0e09a1f63257b0f4395408acc2e10496, type: 2}
   nombreCaja: Azul
   conteoCaja: {fileID: 0}
   record: {fileID: 169492240}
@@ -249,5 +253,24 @@ MonoBehaviour:
   conteoVerde: 0
   conteoGeneralRun: 0
   entregaCaja: {fileID: 11400000, guid: 88b76626ff6a1364ba02425587f4cd90, type: 2}
+  reto2: {fileID: 11400000, guid: d0230e2a4c5653841b4372b722bd3ac4, type: 2}
   conteo: {fileID: 0}
   recordMessage: {fileID: 0}
+--- !u!114 &8708742279169882624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6771947350433086499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01d50e1cd0cff29469dbc41176bc830b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  reto1: {fileID: 11400000, guid: b964e267da081294a8f2e5398348a9e2, type: 2}
+  reto2: {fileID: 11400000, guid: d0230e2a4c5653841b4372b722bd3ac4, type: 2}
+  skinBonusDesbloqueada: {fileID: 11400000, guid: 41eee0af382659043b19fb5bacaccd8c, type: 2}
+  r1: 0
+  r2: 0
+  testing: 0

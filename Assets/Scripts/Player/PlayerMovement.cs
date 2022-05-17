@@ -10,7 +10,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float angularMagnitude = 90;
     [Range(0,49)]
     [SerializeField] float pesoPorCaja;
-    [SerializeField] Eventos deslizar, acelerate,cambiarVel;
+    [SerializeField] Eventos deslizar, acelerate,cambiarVel,reto1;
     [SerializeField] float deslice,duracionDeslizar;
     [SerializeField] TextMeshProUGUI speedViewer;
     [SerializeField] AudioManager audioManager; 
@@ -174,6 +174,10 @@ public class PlayerMovement : MonoBehaviour
         if (speed >= 141 && speed <= 170)
         {
             angularMagnitude = 20 + (angularMagnitude * 0.15f); ;
+        }
+        if (speed >= 150)
+        {
+            reto1.FireEvent();
         }
         if (speed >= 171 && speed <= 200)
         {

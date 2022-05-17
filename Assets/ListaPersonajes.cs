@@ -76,8 +76,8 @@ public class ListaPersonajes : MonoBehaviour
         }
         else 
         {
-           // PlayerPrefs.SetInt("P", 1);
-           // PlayerPrefs.SetInt("TutorialHabilitado", 1);
+            PlayerPrefs.SetInt("P", 1);
+            PlayerPrefs.SetInt("TutorialHabilitado", 1);
             SceneManager.LoadScene("Tutorial");
         }
     }

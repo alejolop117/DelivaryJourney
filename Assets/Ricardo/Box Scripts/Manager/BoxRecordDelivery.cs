@@ -6,7 +6,7 @@ using TMPro;
 public class BoxRecordDelivery : MonoBehaviour
 {
     public int conteoCafe, conteoAzul, conteoVerde,conteoGeneralRun;
-    [SerializeField] Eventos entregaCaja;
+    [SerializeField] Eventos entregaCaja,reto2;
     [SerializeField] TextMeshProUGUI conteo;
     [SerializeField] GameObject recordMessage;
     
@@ -32,13 +32,18 @@ public class BoxRecordDelivery : MonoBehaviour
             PlayerPrefs.SetInt("Record", conteoGeneralRun);
             recordMessage.SetActive(true);
         }
+        if (conteoGeneralRun >= 150)
+        {
+            //Debug.Log("se desbloqueo reto 2");
+            reto2.FireEvent();
+        }
         conteo.text = conteoGeneralRun.ToString();
     }
-    private void Update()
+    /*private void Update()
     {
         if (Input.GetButtonDown("Jump"))
         {
             PlayerPrefs.SetInt("Record", 0);
         }
-    }
+    }*/
 }
