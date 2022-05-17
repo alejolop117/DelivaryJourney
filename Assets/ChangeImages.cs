@@ -1,21 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class ChangeScore : MonoBehaviour
+public class ChangeImages : MonoBehaviour
 {
     private GameObject[] PuntajesList;
 
     private int index;
     [SerializeField] bool testing;
     [SerializeField] int partidas;
-    public Image image;
+    
     // Start is called before the first frame update
     private void Awake()
     {
-        PlayerPrefs.SetInt("PuntajeSelected",0);
+        PlayerPrefs.SetInt("PuntajeSelected", 0);
     }
     void Start()
     {
@@ -30,7 +29,7 @@ public class ChangeScore : MonoBehaviour
 
     }
 
-    public void Atras()
+    public void ImagenAtras()
     {
         PuntajesList[index].SetActive(false);
         index--;
@@ -39,7 +38,7 @@ public class ChangeScore : MonoBehaviour
 
         PuntajesList[index].SetActive(true);
     }
-    public void Adelante()
+    public void ImagenAdelante()
     {
         PuntajesList[index].SetActive(false);
         index++;
@@ -47,21 +46,5 @@ public class ChangeScore : MonoBehaviour
             index = 0;
 
         PuntajesList[index].SetActive(true);
-    }
-
-    public void ConfirmButton()
-    {
-        PlayerPrefs.SetInt("PuntajeSelected", index);
-        if (partidas == 1)
-        {
-            SceneManager.LoadScene("Main");
-        }
-        else if(partidas==0)
-        {
-            PlayerPrefs.SetInt("P", 1);
-            PlayerPrefs.SetInt("TutorialHabilitado", 0);
-            SceneManager.LoadScene("VideoTEst");
-        }
-        
     }
 }
