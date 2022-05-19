@@ -39957,12 +39957,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 4813438305736534979}
     m_Modifications:
     - target: {fileID: 1695244244, guid: e65425c503cd456429b87f919b80cf0c, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 345.1869
+      objectReference: {fileID: 0}
+    - target: {fileID: 1695244244, guid: e65425c503cd456429b87f919b80cf0c, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 248.6081
+      objectReference: {fileID: 0}
+    - target: {fileID: 1695244244, guid: e65425c503cd456429b87f919b80cf0c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 0.0000076294
       objectReference: {fileID: 0}
     - target: {fileID: 1695244244, guid: e65425c503cd456429b87f919b80cf0c, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 63
+      value: 92
       objectReference: {fileID: 0}
     - target: {fileID: 1756724830, guid: e65425c503cd456429b87f919b80cf0c, type: 3}
       propertyPath: m_IsActive
@@ -39974,7 +39982,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7831438853886738661, guid: e65425c503cd456429b87f919b80cf0c, type: 3}
       propertyPath: posicionTextoFinal.y
-      value: -109
+      value: -80
       objectReference: {fileID: 0}
     - target: {fileID: 7831438853886738662, guid: e65425c503cd456429b87f919b80cf0c, type: 3}
       propertyPath: m_SizeDelta.y
@@ -39982,7 +39990,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7831438853886738662, guid: e65425c503cd456429b87f919b80cf0c, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -327.79004
+      value: -344
       objectReference: {fileID: 0}
     - target: {fileID: 7831438853999844664, guid: e65425c503cd456429b87f919b80cf0c, type: 3}
       propertyPath: m_Pivot.x
@@ -45512,7 +45520,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6771947350433086505, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
       propertyPath: pruebas
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6771947350433086505, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
       propertyPath: gameOver
@@ -45604,7 +45612,7 @@ PrefabInstance:
       objectReference: {fileID: 814466348}
     - target: {fileID: 6771947350433086510, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
       propertyPath: pruebas
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6771947350433086510, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
       propertyPath: gameOver
@@ -45632,7 +45640,7 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: 9495b76b366eda64f9311f5e5c1b77aa, type: 2}
     - target: {fileID: 6771947350433086511, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
       propertyPath: pruebas
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6771947350433086511, guid: db25facbd2beff4418be8a68c6b05e93, type: 3}
       propertyPath: gameOver
@@ -75453,6 +75461,7 @@ GameObject:
   - component: {fileID: 1193146516527822833}
   - component: {fileID: 2819591991295064148}
   - component: {fileID: 55666846824483998}
+  - component: {fileID: 2001068023633603916}
   m_Layer: 0
   m_Name: carro bonus
   m_TagString: Untagged
@@ -75460,6 +75469,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!95 &2001068023633603916
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2001068023633603915}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 71eb80a01c71d4946a4d408fa5702891, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2055948884376412798
 GameObject:
   m_ObjectHideFlags: 0
