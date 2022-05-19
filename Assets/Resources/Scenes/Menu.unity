@@ -6496,6 +6496,7 @@ MonoBehaviour:
   - Conteo Cajas Verde
   - Conteo Cajas Cafe
   - SkinBonus
+  valores: 0000000064000000c80000002c01000000000000
   botonplay: {fileID: 1993820165}
   boton_nosepuede: {fileID: 629265187}
   img_sinSkin: {fileID: 1605060467}
