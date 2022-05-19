@@ -7,6 +7,7 @@ public class SelectionSkinManager : MonoBehaviour
     [SerializeField] int index;
     [SerializeField] Eventos cambioSkin;
     [SerializeField] string[] contadores;
+    [SerializeField] int[] valores;
     [SerializeField] GameObject botonplay,boton_nosepuede,img_sinSkin;
     void Awake()
     {
@@ -43,7 +44,7 @@ public class SelectionSkinManager : MonoBehaviour
         }
         else
         {
-            if (PlayerPrefs.GetInt(contadores[index]) >= 100)
+            if (PlayerPrefs.GetInt(contadores[index]) >= valores[index])
             {
                 botonplay.SetActive(true);
                 boton_nosepuede.SetActive(false);
