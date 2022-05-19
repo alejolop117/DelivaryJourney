@@ -23,6 +23,10 @@ public class ListaPersonajes : MonoBehaviour
         {
             PlayerPrefs.SetInt("P", 0);
             PlayerPrefs.SetInt("TutorialHabilitado", 0);
+            PlayerPrefs.SetInt("Conteo Cajas Azul",0);
+            PlayerPrefs.SetInt("Conteo Cajas Cafe", 0);
+            PlayerPrefs.SetInt("Conteo Cajas Verde", 0);
+            PlayerPrefs.SetInt("SkinBonus", 0);
         }
         partidas = PlayerPrefs.GetInt("P");
     }
