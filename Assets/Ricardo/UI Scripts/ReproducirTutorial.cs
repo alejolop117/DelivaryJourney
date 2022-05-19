@@ -20,6 +20,8 @@ public class ReproducirTutorial : MonoBehaviour
     }*/
     public void PlayTutorial()
     {
+        PlayerPrefs.SetInt("PuntajeSelected", 0);
+        PlayerPrefs.SetInt("CharacterSelected", 0);
         SceneManager.LoadScene("VideoTEst");
     }
 }
